@@ -1,7 +1,7 @@
 "use client";
 
 import { memo, useCallback, useEffect, useRef, useState, useMemo } from "react";
-import { Copy, MapPin, Ruler, Check, Star } from "lucide-react";
+import { Copy, MapPin, Ruler, Check } from "lucide-react";
 import { formatDecimalDegrees } from "@/lib/utils/coordinates";
 import type { ContextMenuPosition } from "@/hooks/useMapContextMenu";
 
@@ -11,7 +11,6 @@ interface MapContextMenuProps {
   onClose: () => void;
   onAddMarker: (lat: number, lng: number) => void;
   onStartMeasurement: () => void;
-  onAddPOI?: (lat: number, lng: number) => void;
 }
 
 interface MenuItemProps {
@@ -78,7 +77,6 @@ export const MapContextMenu = memo(function MapContextMenu({
   onClose,
   onAddMarker,
   onStartMeasurement,
-  onAddPOI,
 }: MapContextMenuProps) {
   const menuRef = useRef<HTMLDivElement>(null);
   // Track which position was copied (null means not copied)
@@ -176,15 +174,6 @@ export const MapContextMenu = memo(function MapContextMenu({
   }, [onStartMeasurement, onClose]);
 
   /**
-   * Handle add to POI
-   */
-  const handleAddPOI = useCallback(() => {
-    if (!position || !onAddPOI) return;
-    onAddPOI(position.latlng.lat, position.latlng.lng);
-    onClose();
-  }, [position, onAddPOI, onClose]);
-
-  /**
    * Handle click outside to close
    */
   useEffect(() => {
@@ -249,21 +238,6 @@ export const MapContextMenu = memo(function MapContextMenu({
         sublabel="Start distance measurement"
         onClick={handleStartMeasurement}
       />
-
-      {/* Add to My Places (if handler provided) */}
-      {onAddPOI && (
-        <>
-          {/* Divider */}
-          <div className="my-1.5 border-t border-gray-200 dark:border-gray-700" />
-
-          <MenuItem
-            icon={<Star className="h-4 w-4" />}
-            label="Add to My Places"
-            sublabel="Save this location"
-            onClick={handleAddPOI}
-          />
-        </>
-      )}
     </div>
   );
 });

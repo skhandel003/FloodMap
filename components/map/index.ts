@@ -10,9 +10,8 @@
  * UI Components:
  * - MapMain: Main map layout with all controls
  * - MapControls: Zoom, fullscreen, location controls
- * - MapTopBar: Category pills and user menu
+ * - MapTopBar: Theme switcher and user menu
  * - MapSearchBar: Country search with keyboard navigation
- * - MapTileSwitcher: Base map layer switcher
  * - MapThemeSwitcher: Light/dark theme toggle
  * - MapDetailsPanel: Country information panel
  * - MapMeasurementPanel: Distance/area measurement tools
@@ -33,11 +32,9 @@ export { MapLoadingSpinner } from './MapLoadingSpinner';
 export { MapMain } from './MapMain';
 export { MapSearchBar } from './MapSearchBar';
 export { MapTopBar } from './MapTopBar';
-export { MapTileSwitcher } from './MapTileSwitcher';
 export { MapControls } from './MapControls';
 export { MapThemeSwitcher } from './MapThemeSwitcher';
 export { MapUser } from './MapUser';
 export { MapMeasurementPanel } from './MapMeasurementPanel';
 export { MapDetailsPanel } from './MapDetailsPanel';
 export { MapContextMenu } from './MapContextMenu';
-export { MapPOIPanel } from './MapPOIPanel';

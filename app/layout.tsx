@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js Leaflet Starter",
+  title: "Flood Map",
   description:
-    "Enterprise-grade Next.js 16 starter template with vanilla Leaflet integration",
+    "Firsthand flood reports from social media, sorted by AI and pinned to a live map.",
 };
 
 export default function RootLayout({
