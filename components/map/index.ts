@@ -15,7 +15,7 @@
  * - MapThemeSwitcher: Light/dark theme toggle
  * - MapDetailsPanel: Country information panel
  * - MapMeasurementPanel: Distance/area measurement tools
- * - TweetPinLayer: Numbered pins for tweets from the database
+ * - TweetPinLayer: Tweet pins from the database, clustered when zoomed out
  * - PinTweetsPanel: Tweets behind a clicked pin
  * 
  * Utilities:
