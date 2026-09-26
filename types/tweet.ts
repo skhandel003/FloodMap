@@ -13,14 +13,23 @@ export interface TweetLocation {
   closeLocation: string | null;
   /** null until the place has been geocoded */
   coordinates: { lat: number; lng: number } | null;
+  /**
+   * Which part the coordinates belong to - the most specific one that could be
+   * found, e.g. "province" when only Alberta could be placed; null with no coordinates
+   */
+  precision: "place" | "city" | "province" | null;
 }
 
 /**
  * A processed tweet as stored in the Floods.FloodTweets MongoDB collection
  */
 export interface FloodTweet {
-  /** Line in the processed CSV where the tweet starts (the header is line 1) */
+  /**
+   * Line in the processed CSV where the tweet starts (the header is line 1) - the
+   * first such line when the same text appears more than once
+   */
   id: number;
+  /** Unique across the collection */
   text: string;
   /** Places mentioned, no repeats; empty when none were found */
   locations: TweetLocation[];

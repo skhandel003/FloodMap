@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { getFloodTweetsCollection } from "@/lib/mongodb";
-import { locationQuery } from "@/lib/geocode";
+import { locationLabel } from "@/lib/geocode";
 import type { MapPin } from "@/types/tweet";
 
 // Always read the database at request time, never at build time
@@ -33,7 +33,7 @@ export async function GET() {
           id: key,
           lat,
           lng,
-          place: locationQuery(location),
+          place: locationLabel(location),
           tweets: [],
         };
         // A tweet naming two places that resolve to the same spot counts once

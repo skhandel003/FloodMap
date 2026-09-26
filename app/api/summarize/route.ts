@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getFloodTweetsCollection } from "@/lib/mongodb";
-import { locationQuery } from "@/lib/geocode";
+import { locationLabel } from "@/lib/geocode";
 import { summarizeTweets } from "@/lib/gemini";
 
 // Only the most relevant tweets are summarised, to keep it quick
@@ -55,7 +55,7 @@ export async function POST(request: NextRequest) {
   const location = tweets[0].locations.find(
     (l) => l.coordinates?.lat === lat && l.coordinates?.lng === lng
   );
-  const place = location ? locationQuery(location) : `${lat}, ${lng}`;
+  const place = location ? locationLabel(location) : `${lat}, ${lng}`;
 
   try {
     const summary = await summarizeTweets(
