@@ -33,6 +33,10 @@ const NOT_PLACES = new Set([
 ]);
 // A bare number or ordinal like "3rd" - part of a street name, not a place
 const ORDINAL = /^\d+(st|nd|rd|th)?$/i;
+// Words that narrow a province or city without naming a place, e.g. "Southern
+// Alberta" - removed from provinces, cities and lone regions (see toLocations),
+// but not from specific places, so "Central Memorial Park" keeps its name
+const DIRECTION = /\b(southern|northern|eastern|western|central)\b/gi;
 
 try {
   process.loadEnvFile(".env.local");
@@ -137,16 +141,28 @@ function cleanValue(value: string | null | undefined): string | null {
 
 /**
  * Groups list items into (province, city, close location) triples, dropping
- * empty triples and case-insensitive repeats
+ * case-insensitive repeats and triples with neither a province nor a city - a
+ * close location alone (e.g. [None, None, 'Mission']) is too vague to place.
+ *
+ * The exception is a lone region like [None, None, 'Southern Alberta']: without
+ * its direction word it's used as the province, e.g. [Alberta, None, None].
  */
 function toLocations(items: (string | null)[]): TweetLocation[] {
   const seen = new Set<string>();
   const locations: TweetLocation[] = [];
   for (let i = 0; i < items.length; i += 3) {
-    const province = cleanValue(items[i]);
-    const city = cleanValue(items[i + 1]);
-    const closeLocation = cleanValue(items[i + 2]);
-    if (!province && !city && !closeLocation) continue;
+    let province = cleanValue(items[i]?.replace(DIRECTION, ""));
+    const city = cleanValue(items[i + 1]?.replace(DIRECTION, ""));
+    let closeLocation = cleanValue(items[i + 2]);
+
+    if (!province && !city && closeLocation) {
+      const region = cleanValue(closeLocation.replace(DIRECTION, ""));
+      if (region !== closeLocation) {
+        province = region;
+        closeLocation = null;
+      }
+    }
+    if (!province && !city) continue;
 
     const key = [province, city, closeLocation].join("|").toLowerCase();
     if (seen.has(key)) continue;
@@ -211,29 +227,24 @@ function provinceSearch(province: string): PlaceSearch {
 }
 
 /**
- * Keeps a search inside `parent` - or inside the dataset's main area when there's
- * no parent
+ * Keeps a search inside `parent` (and its country) when there is one
  */
-function inside(
-  parent: Place | null,
-  mainArea: Place | null,
-): Pick<PlaceSearch, "within" | "countryCodes"> {
-  const area = parent ?? mainArea;
-  return area
-    ? { within: area.bbox, countryCodes: area.countryCode ?? GEOCODE_COUNTRY }
+function inside(parent: Place | null): Pick<PlaceSearch, "within" | "countryCodes"> {
+  return parent
+    ? { within: parent.bbox, countryCodes: parent.countryCode ?? GEOCODE_COUNTRY }
     : { countryCodes: GEOCODE_COUNTRY };
 }
 
 /**
- * Works out a location from saved searches, level by level (see the notes at the
- * top of this file). Stops at the first search not run yet and returns it as
- * `next`, along with the best part found up to that point.
+ * Works out a location from its own triple and saved searches, level by level:
+ * - province: only provinces/states match
+ * - city: only cities, towns and villages - inside the province when one was found
+ * - close location: inside the city, else inside the province; never searched
+ *   without one of them, so it can't land somewhere unrelated
+ * The location gets the most specific level found. Stops at the first search not
+ * run yet and returns it as `next`, along with the best part found up to then.
  */
-function resolveLocation(
-  location: TweetLocation,
-  cache: PlaceCache,
-  mainArea: Place | null,
-): Resolution {
+function resolveLocation(location: TweetLocation, cache: PlaceCache): Resolution {
   const resolution: Resolution = { place: null, precision: null, next: null };
   const found = (place: Place | null, precision: Resolution["precision"]) => {
     if (place) {
@@ -256,7 +267,7 @@ function resolveLocation(
     const search: PlaceSearch = {
       q: location.city,
       featureType: "settlement",
-      ...inside(province, mainArea),
+      ...inside(province),
     };
     const saved = cache[searchKey(search)];
     if (saved === undefined) return { ...resolution, next: search };
@@ -271,17 +282,14 @@ function resolveLocation(
     if (city) {
       searches.push({
         q: joinParts(location.closeLocation, location.city, location.province),
-        ...inside(city, mainArea),
+        ...inside(city),
       });
     }
     if (province) {
       searches.push({
         q: joinParts(location.closeLocation, location.province),
-        ...inside(province, mainArea),
+        ...inside(province),
       });
-    }
-    if (!city && !province) {
-      searches.push({ q: location.closeLocation, ...inside(null, mainArea) });
     }
 
     for (const search of searches) {
@@ -298,56 +306,14 @@ function resolveLocation(
 }
 
 /**
- * The province most tweets name (e.g. Alberta) - the dataset's main area, used
- * for parts that come without a province. null until provinces are looked up.
- */
-function findMainArea(
-  tweets: FloodTweet[],
-  cache: PlaceCache,
-): { name: string; place: Place } | null {
-  const counts = new Map<
-    string,
-    { name: string; place: Place; tweets: number }
-  >();
-  for (const tweet of tweets) {
-    const provinces = new Map<string, { name: string; place: Place }>();
-    for (const location of tweet.locations) {
-      const place =
-        location.province &&
-        cache[searchKey(provinceSearch(location.province))];
-      if (place)
-        provinces.set(`${place.lat},${place.lng}`, {
-          name: location.province!,
-          place,
-        });
-    }
-    for (const [key, { name, place }] of provinces) {
-      const entry = counts.get(key) ?? { name, place, tweets: 0 };
-      entry.tweets++;
-      counts.set(key, entry);
-    }
-  }
-  const [top] = [...counts.values()].sort((a, b) => b.tweets - a.tweets);
-  return top ? { name: top.name, place: top.place } : null;
-}
-
-/**
  * Sets every location's coordinates from the searches saved so far and returns
  * the searches still needed, keyed by searchKey()
  */
-function applySavedSearches(
-  tweets: FloodTweet[],
-  cache: PlaceCache,
-  mainArea: Place | null,
-) {
+function applySavedSearches(tweets: FloodTweet[], cache: PlaceCache) {
   const pending = new Map<string, PendingSearch>();
   for (const tweet of tweets) {
     for (const location of tweet.locations) {
-      const { place, precision, next } = resolveLocation(
-        location,
-        cache,
-        mainArea,
-      );
+      const { place, precision, next } = resolveLocation(location, cache);
       location.coordinates = place && { lat: place.lat, lng: place.lng };
       location.precision = precision;
       if (!next) continue;
@@ -504,8 +470,7 @@ async function main() {
   }
 
   const cache = loadPlaceCache();
-  let mainArea = findMainArea(tweets, cache);
-  let pending = applySavedSearches(tweets, cache, mainArea?.place ?? null);
+  let pending = applySavedSearches(tweets, cache);
 
   const uniqueLocations = new Set(
     tweets.flatMap((t) =>
@@ -520,7 +485,6 @@ async function main() {
     `  ${tweets.filter((t) => t.locations.length > 0).length} with a location, ` +
       `${uniqueLocations.size} unique locations`,
     `  locations placed so far: ${describePlacement(tweets)}`,
-    `  main area: ${mainArea ? mainArea.name : "not known yet (found from the provinces)"}`,
     `  ${pending.size} search(es) to run next - more follow as each level is found`,
     timeColumn
       ? `  time column "${timeColumn}": ${tweets.filter((t) => t.time).length} with a time`
@@ -567,27 +531,19 @@ async function main() {
     );
     console.log(summary.join("\n"));
 
-    // Round by round: provinces first (they decide the main area), then each round
-    // unlocks the next level. Tweets are saved after every round, so pins sharpen
-    // from province to city to place while the rest are still being looked up.
+    // Round by round: each round's results unlock the next level's searches
+    // (province, then city, then place). Tweets are saved after every round, so
+    // pins sharpen while the rest are still being looked up.
     let isSaved = false;
     while (!skipGeocoding && pending.size > 0) {
-      const provinces = new Map(
-        [...pending].filter(([, { search }]) => search.featureType === "state"),
-      );
-      const { ran, stopped } = await runSearches(
-        provinces.size > 0 ? provinces : pending,
-        cache,
-      );
+      const { ran, stopped } = await runSearches(pending, cache);
 
-      mainArea = findMainArea(tweets, cache);
-      pending = applySavedSearches(tweets, cache, mainArea?.place ?? null);
+      pending = applySavedSearches(tweets, cache);
       await saveTweets(collection, tweets);
       isSaved = true;
       console.log(
         `Saved ${tweets.length} tweets - locations: ${describePlacement(tweets)}`,
       );
-      if (mainArea) console.log(`  main area: ${mainArea.name}`);
       if (stopped || ran === 0) break;
     }
 

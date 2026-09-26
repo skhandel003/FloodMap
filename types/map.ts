@@ -14,6 +14,10 @@ export interface MapConfig {
   maxZoom: number;
   zoomControl: boolean;
   attributionControl: boolean;
+  /** The map can't be panned outside this area: [[south, west], [north, east]] */
+  maxBounds: [[number, number], [number, number]];
+  /** How firmly the edges of maxBounds hold, 0 (not at all) to 1 (solid) */
+  maxBoundsViscosity: number;
 }
 
 /**

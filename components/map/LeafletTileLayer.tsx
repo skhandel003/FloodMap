@@ -85,6 +85,8 @@ export function LeafletTileLayer({
           attribution,
           maxZoom,
           subdomains: subdomainsList,
+          // Draw the world once rather than repeating it sideways
+          noWrap: true,
         });
 
         // Add error handling for tile loading

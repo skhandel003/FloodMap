@@ -82,13 +82,29 @@ function clusterHtml(count: number): string {
  *   until it splits apart
  * - A single pin shows its own tweet count; clicking it reports the pin
  * - Clusters are recalculated whenever the map stops moving or zooming
- * - The map zooms to fit the pins the first time they load
+ * - The map zooms to fit the pins the first time they arrive - unless the user
+ *   has already moved it. Pins that change later are redrawn in place and never
+ *   move the view.
  *
  * Renders nothing itself - markers live in a Leaflet layer group.
  */
 export function TweetPinLayer({ pins, onPinClick }: TweetPinLayerProps) {
   const map = useLeafletMap();
   const hasFittedRef = useRef(false);
+  const userMovedRef = useRef(false);
+
+  // Note when the user drags or zooms (buttons, search and cluster clicks too),
+  // so pins arriving afterwards don't pull the view away from what they're viewing
+  useEffect(() => {
+    if (!map) return;
+    const markMoved = () => {
+      userMovedRef.current = true;
+    };
+    map.on("dragstart zoomstart", markMoved);
+    return () => {
+      map.off("dragstart zoomstart", markMoved);
+    };
+  }, [map]);
 
   useEffect(() => {
     if (!map || pins.length === 0) return;
@@ -178,13 +194,13 @@ export function TweetPinLayer({ pins, onPinClick }: TweetPinLayerProps) {
         }
       };
 
-      if (!hasFittedRef.current) {
-        hasFittedRef.current = true;
+      if (!hasFittedRef.current && !userMovedRef.current) {
         map.fitBounds(
           L.latLngBounds(pins.map((pin) => [pin.lat, pin.lng])),
           { padding: [80, 80], maxZoom: 12 }
         );
       }
+      hasFittedRef.current = true;
 
       redraw();
       map.on("moveend", redraw);

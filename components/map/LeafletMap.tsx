@@ -106,6 +106,8 @@ export function LeafletMap({
           maxZoom,
           zoomControl: DEFAULT_MAP_CONFIG.zoomControl,
           attributionControl: DEFAULT_MAP_CONFIG.attributionControl,
+          maxBounds: DEFAULT_MAP_CONFIG.maxBounds,
+          maxBoundsViscosity: DEFAULT_MAP_CONFIG.maxBoundsViscosity,
         });
 
         // Mark as initialized before storing reference

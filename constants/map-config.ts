@@ -15,6 +15,10 @@ export const DEFAULT_MAP_CONFIG: MapConfig = {
   maxZoom: 18,
   zoomControl: false, // Using custom controls in dock
   attributionControl: true,
+  // One copy of the world with solid edges - pins only exist on this copy, so
+  // panning onto a repeated one would show the map without them
+  maxBounds: [[-90, -180], [90, 180]],
+  maxBoundsViscosity: 1,
 };
 
 /**

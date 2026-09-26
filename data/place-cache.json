@@ -1,0 +1,5577 @@
+{
+  "q=alberta&featuretype=state": {
+    "lat": 55.001251,
+    "lng": -115.002136,
+    "bbox": [
+      48.996665,
+      60.0004699,
+      -120.0013835,
+      -110.0047639
+    ],
+    "countryCode": "ca"
+  },
+  "q=ontario&featuretype=state": {
+    "lat": 50.000678,
+    "lng": -86.000977,
+    "bbox": [
+      41.6765597,
+      56.8613501,
+      -95.1560176,
+      -74.3201062
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary&featuretype=settlement&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0456064,
+    "lng": -114.057541,
+    "bbox": [
+      50.842526,
+      51.2125013,
+      -114.3157587,
+      -113.8600018
+    ],
+    "countryCode": "ca"
+  },
+  "q=canada&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 61.0666922,
+    "lng": -107.991707,
+    "bbox": [
+      41.6765597,
+      83.3362128,
+      -141.00275,
+      -52.3237664
+    ],
+    "countryCode": "ca"
+  },
+  "q=high+river%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.5801916,
+    "lng": -113.8709332,
+    "bbox": [
+      50.5401916,
+      50.6201916,
+      -113.9109332,
+      -113.8309332
+    ],
+    "countryCode": "ca"
+  },
+  "q=southern+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0631292,
+    "lng": -114.0878809,
+    "bbox": [
+      51.0595997,
+      51.066743,
+      -114.0939769,
+      -114.0845327
+    ],
+    "countryCode": "ca"
+  },
+  "q=edmonton&featuretype=settlement&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.5462055,
+    "lng": -113.491241,
+    "bbox": [
+      53.3372558,
+      53.7162646,
+      -113.7138411,
+      -113.2714783
+    ],
+    "countryCode": "ca"
+  },
+  "q=canmore%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0866897,
+    "lng": -115.3481135,
+    "bbox": [
+      51.0466897,
+      51.1266897,
+      -115.3881135,
+      -115.3081135
+    ],
+    "countryCode": "ca"
+  },
+  "q=canada%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 55.001251,
+    "lng": -115.002136,
+    "bbox": [
+      48.996665,
+      60.0004699,
+      -120.0013835,
+      -110.0047639
+    ],
+    "countryCode": "ca"
+  },
+  "q=siksika%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.476109,
+    "lng": -112.8778585,
+    "bbox": [
+      53.4742784,
+      53.4796843,
+      -112.8806964,
+      -112.8720001
+    ],
+    "countryCode": "ca"
+  },
+  "q=highriver%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=western+canada&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.0709994,
+    "lng": -113.9868217,
+    "bbox": [
+      49.0709494,
+      49.0710494,
+      -113.9868717,
+      -113.9867717
+    ],
+    "countryCode": "ca"
+  },
+  "q=downtown+calgary&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0464963,
+    "lng": -114.0506433,
+    "bbox": [
+      51.0431718,
+      51.0510091,
+      -114.0578391,
+      -114.0406649
+    ],
+    "countryCode": "ca"
+  },
+  "q=saddledome%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0374124,
+    "lng": -114.0519642,
+    "bbox": [
+      51.036772,
+      51.0380286,
+      -114.0530672,
+      -114.0509666
+    ],
+    "countryCode": "ca"
+  },
+  "q=mission%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0317576,
+    "lng": -114.0667199,
+    "bbox": [
+      51.0284848,
+      51.0378336,
+      -114.0715157,
+      -114.0611154
+    ],
+    "countryCode": "ca"
+  },
+  "q=southern+alberta%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0631292,
+    "lng": -114.0878809,
+    "bbox": [
+      51.0595997,
+      51.066743,
+      -114.0939769,
+      -114.0845327
+    ],
+    "countryCode": "ca"
+  },
+  "q=medicine+hat%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.04303,
+    "lng": -110.679016,
+    "bbox": [
+      49.9895477,
+      50.1135772,
+      -110.8009864,
+      -110.617509
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+zoo&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0454337,
+    "lng": -114.0231839,
+    "bbox": [
+      51.0433985,
+      51.0474682,
+      -114.0362344,
+      -114.0196596
+    ],
+    "countryCode": "ca"
+  },
+  "q=canadian+province+of%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.4134273,
+    "lng": -114.0283456,
+    "bbox": [
+      51.413088,
+      51.4137692,
+      -114.0292525,
+      -114.0274378
+    ],
+    "countryCode": "ca"
+  },
+  "q=rockies%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.9752469,
+    "lng": -114.0799425,
+    "bbox": [
+      50.9740654,
+      50.9764079,
+      -114.082408,
+      -114.0775243
+    ],
+    "countryCode": "ca"
+  },
+  "q=banff%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.175076,
+    "lng": -115.5720773,
+    "bbox": [
+      51.1612529,
+      51.1934089,
+      -115.5910001,
+      -115.5452022
+    ],
+    "countryCode": "ca"
+  },
+  "q=lethbridge%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.6945782,
+    "lng": -112.8331033,
+    "bbox": [
+      49.6188534,
+      49.7563306,
+      -112.9359717,
+      -112.7567069
+    ],
+    "countryCode": "ca"
+  },
+  "q=the+saddledome%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=ab%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.52682,
+    "lng": -113.5244937,
+    "bbox": [
+      53.5163893,
+      53.5307038,
+      -113.5323589,
+      -113.5151174
+    ],
+    "countryCode": "ca"
+  },
+  "q=medhat%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=central+calgary&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.3993717,
+    "lng": -113.5102508,
+    "bbox": [
+      53.3961045,
+      53.4027896,
+      -113.5124847,
+      -113.5082565
+    ],
+    "countryCode": "ca"
+  },
+  "q=high+river&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.5801916,
+    "lng": -113.8709332,
+    "bbox": [
+      50.5401916,
+      50.6201916,
+      -113.9109332,
+      -113.8309332
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0456064,
+    "lng": -114.057541,
+    "bbox": [
+      50.842526,
+      51.2125013,
+      -114.3157587,
+      -113.8600018
+    ],
+    "countryCode": "ca"
+  },
+  "q=vancouver&featuretype=settlement&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=alberta+canada&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 55.001251,
+    "lng": -115.002136,
+    "bbox": [
+      48.996665,
+      60.0004699,
+      -120.0013835,
+      -110.0047639
+    ],
+    "countryCode": "ca"
+  },
+  "q=drumheller%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.401597,
+    "lng": -112.6185167,
+    "bbox": [
+      51.3216531,
+      51.4887715,
+      -112.8086774,
+      -112.4543816
+    ],
+    "countryCode": "ca"
+  },
+  "q=bowness&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0892766,
+    "lng": -114.1930754,
+    "bbox": [
+      51.067767,
+      51.0989276,
+      -114.2334719,
+      -114.1666959
+    ],
+    "countryCode": "ca"
+  },
+  "q=transcanada+hwy%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0427584,
+    "lng": -113.8076895,
+    "bbox": [
+      51.037996,
+      51.0522829,
+      -113.8122045,
+      -113.7983508
+    ],
+    "countryCode": "ca"
+  },
+  "q=elbow+park%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0206343,
+    "lng": -114.0784467,
+    "bbox": [
+      51.0125799,
+      51.0301342,
+      -114.0947105,
+      -114.0684455
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary%2c+alber&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=saddledome&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0374124,
+    "lng": -114.0519642,
+    "bbox": [
+      51.036772,
+      51.0380286,
+      -114.0530672,
+      -114.0509666
+    ],
+    "countryCode": "ca"
+  },
+  "q=albert%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0383053,
+    "lng": -113.9821298,
+    "bbox": [
+      51.0381916,
+      51.0383521,
+      -113.9823453,
+      -113.9818503
+    ],
+    "countryCode": "ca"
+  },
+  "q=bowness%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0892766,
+    "lng": -114.1930754,
+    "bbox": [
+      51.067767,
+      51.0989276,
+      -114.2334719,
+      -114.1666959
+    ],
+    "countryCode": "ca"
+  },
+  "q=cochrane%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.1874627,
+    "lng": -114.4710708,
+    "bbox": [
+      51.1541942,
+      51.225017,
+      -114.5249218,
+      -114.4200581
+    ],
+    "countryCode": "ca"
+  },
+  "q=lethbridge&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.6945782,
+    "lng": -112.8331033,
+    "bbox": [
+      49.6188534,
+      49.7563306,
+      -112.9359717,
+      -112.7567069
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+http&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=bow+river%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.4251691,
+    "lng": -116.1846631,
+    "bbox": [
+      51.4249922,
+      51.4265041,
+      -116.1858488,
+      -116.1828862
+    ],
+    "countryCode": "ca"
+  },
+  "q=saskatoon&featuretype=settlement&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=devon%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.3633545,
+    "lng": -113.7316992,
+    "bbox": [
+      53.3377325,
+      53.3724236,
+      -113.7571818,
+      -113.6837366
+    ],
+    "countryCode": "ca"
+  },
+  "q=highwood+river%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.5558244,
+    "lng": -114.2937896,
+    "bbox": [
+      50.3783336,
+      50.8182932,
+      -114.9871328,
+      -113.7770212
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40useralgary%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=ab&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 55.001251,
+    "lng": -115.002136,
+    "bbox": [
+      48.996665,
+      60.0004699,
+      -120.0013835,
+      -110.0047639
+    ],
+    "countryCode": "ca"
+  },
+  "q=banff&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.175076,
+    "lng": -115.5720773,
+    "bbox": [
+      51.1612529,
+      51.1934089,
+      -115.5910001,
+      -115.5452022
+    ],
+    "countryCode": "ca"
+  },
+  "q=reddeer%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=southern%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0631292,
+    "lng": -114.0878809,
+    "bbox": [
+      51.0595997,
+      51.066743,
+      -114.0939769,
+      -114.0845327
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40useralgary&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=calgary%2c+ab&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0456064,
+    "lng": -114.057541,
+    "bbox": [
+      50.842526,
+      51.2125013,
+      -114.3157587,
+      -113.8600018
+    ],
+    "countryCode": "ca"
+  },
+  "q=alberta+towns&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.8641628,
+    "lng": -113.9526165,
+    "bbox": [
+      50.8635241,
+      50.8647991,
+      -113.9534743,
+      -113.9517878
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40medicinehatcity%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=calgary+areas&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=kneehill+county%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.700556,
+    "lng": -113.3044239,
+    "bbox": [
+      51.3155206,
+      51.9828974,
+      -113.7371514,
+      -112.6769833
+    ],
+    "countryCode": "ca"
+  },
+  "q=chicagobrid%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=downtown%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.5412696,
+    "lng": -113.5004528,
+    "bbox": [
+      53.5305001,
+      53.5487592,
+      -113.5139578,
+      -113.4843216
+    ],
+    "countryCode": "ca"
+  },
+  "q=bragg+creek%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.9527622,
+    "lng": -114.5638491,
+    "bbox": [
+      50.9413233,
+      50.9642431,
+      -114.5835718,
+      -114.5596018
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+saddledome&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0374124,
+    "lng": -114.0519642,
+    "bbox": [
+      51.036772,
+      51.0380286,
+      -114.0530672,
+      -114.0509666
+    ],
+    "countryCode": "ca"
+  },
+  "q=turner+valley%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.6715813,
+    "lng": -114.2687992,
+    "bbox": [
+      50.6689396,
+      50.67391,
+      -114.2731547,
+      -114.2666531
+    ],
+    "countryCode": "ca"
+  },
+  "q=quebec%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0292504,
+    "lng": -114.0925915,
+    "bbox": [
+      51.0289193,
+      51.0294497,
+      -114.0939985,
+      -114.0912112
+    ],
+    "countryCode": "ca"
+  },
+  "q=med+hat%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=south%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.316026,
+    "lng": -113.0395695,
+    "bbox": [
+      53.3085953,
+      53.3212707,
+      -113.0475614,
+      -113.0379597
+    ],
+    "countryCode": "ca"
+  },
+  "q=ottawa&featuretype=settlement&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=downtown+calgary%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0456592,
+    "lng": -114.0782269,
+    "bbox": [
+      51.045521,
+      51.0458694,
+      -114.0786537,
+      -114.0777931
+    ],
+    "countryCode": "ca"
+  },
+  "q=toronto%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 52.1641938,
+    "lng": -117.5664103,
+    "bbox": [
+      52.1641438,
+      52.1642438,
+      -117.5664603,
+      -117.5663603
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0456064,
+    "lng": -114.057541,
+    "bbox": [
+      50.842526,
+      51.2125013,
+      -114.3157587,
+      -113.8600018
+    ],
+    "countryCode": "ca"
+  },
+  "q=bow&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.117991,
+    "lng": -115.4151065,
+    "bbox": [
+      51.11672,
+      51.1193188,
+      -115.4184201,
+      -115.41156
+    ],
+    "countryCode": "ca"
+  },
+  "q=eden+valley%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 52.3109228,
+    "lng": -114.947389,
+    "bbox": [
+      52.3080804,
+      52.3141536,
+      -114.9509252,
+      -114.9435967
+    ],
+    "countryCode": "ca"
+  },
+  "q=lake+louise%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.4249668,
+    "lng": -116.177535,
+    "bbox": [
+      51.4049668,
+      51.4449668,
+      -116.197535,
+      -116.157535
+    ],
+    "countryCode": "ca"
+  },
+  "q=fort+mcmurray+a%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 56.7291997,
+    "lng": -111.3885221,
+    "bbox": [
+      56.6437458,
+      56.8044658,
+      -111.5109382,
+      -111.2070503
+    ],
+    "countryCode": "ca"
+  },
+  "q=mainland&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=pincher+creek&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.485667,
+    "lng": -113.9502919,
+    "bbox": [
+      49.4736825,
+      49.5094147,
+      -113.9716692,
+      -113.9142477
+    ],
+    "countryCode": "ca"
+  },
+  "q=bc%2falberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.1316077,
+    "lng": -113.9973658,
+    "bbox": [
+      51.1316025,
+      51.1316089,
+      -114.0002918,
+      -113.9944399
+    ],
+    "countryCode": "ca"
+  },
+  "q=alberta%2c+canada&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 55.001251,
+    "lng": -115.002136,
+    "bbox": [
+      48.996665,
+      60.0004699,
+      -120.0013835,
+      -110.0047639
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+canada&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0456064,
+    "lng": -114.057541,
+    "bbox": [
+      50.842526,
+      51.2125013,
+      -114.3157587,
+      -113.8600018
+    ],
+    "countryCode": "ca"
+  },
+  "q=east+village+development%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=morley&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.1700283,
+    "lng": -114.8496742,
+    "bbox": [
+      51.1500283,
+      51.1900283,
+      -114.8696742,
+      -114.8296742
+    ],
+    "countryCode": "ca"
+  },
+  "q=glenmore+coin+laundry&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=oil+country%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.2240918,
+    "lng": -114.9777201,
+    "bbox": [
+      53.2240418,
+      53.2241418,
+      -114.9777701,
+      -114.9776701
+    ],
+    "countryCode": "ca"
+  },
+  "q=southern+alberta+b&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.7189302,
+    "lng": -113.3910676,
+    "bbox": [
+      49.7177891,
+      49.7204493,
+      -113.3947581,
+      -113.3885622
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+bridge&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0504457,
+    "lng": -114.040788,
+    "bbox": [
+      51.0501408,
+      51.0507544,
+      -114.0412682,
+      -114.0405726
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40useroffoothills%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=south+sask%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=texas&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.9833581,
+    "lng": -117.1442556,
+    "bbox": [
+      49.9833081,
+      49.9834081,
+      -117.1443056,
+      -117.1442056
+    ],
+    "countryCode": "ca"
+  },
+  "q=the+saddldome&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=cspace+king+edward&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0272702,
+    "lng": -114.10089,
+    "bbox": [
+      51.0271533,
+      51.0273809,
+      -114.1012729,
+      -114.100507
+    ],
+    "countryCode": "ca"
+  },
+  "q=deer+park%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 52.2623201,
+    "lng": -113.7586432,
+    "bbox": [
+      52.2423201,
+      52.2823201,
+      -113.7786432,
+      -113.7386432
+    ],
+    "countryCode": "ca"
+  },
+  "q=western&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.0709994,
+    "lng": -113.9868217,
+    "bbox": [
+      49.0709494,
+      49.0710494,
+      -113.9868717,
+      -113.9867717
+    ],
+    "countryCode": "ca"
+  },
+  "q=morley+high+school&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0781541,
+    "lng": -114.1148603,
+    "bbox": [
+      51.0770009,
+      51.0792474,
+      -114.1163872,
+      -114.1130817
+    ],
+    "countryCode": "ca"
+  },
+  "q=siksikanation%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=bc&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.1316077,
+    "lng": -113.9973658,
+    "bbox": [
+      51.1316025,
+      51.1316089,
+      -114.0002918,
+      -113.9944399
+    ],
+    "countryCode": "ca"
+  },
+  "q=saskatchewan%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.7128571,
+    "lng": -113.214894,
+    "bbox": [
+      53.6575115,
+      53.7742587,
+      -113.2942696,
+      -113.1241398
+    ],
+    "countryCode": "ca"
+  },
+  "q=edmonton+office%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.564559,
+    "lng": -113.4384231,
+    "bbox": [
+      53.5644888,
+      53.5646294,
+      -113.4385015,
+      -113.4383449
+    ],
+    "countryCode": "ca"
+  },
+  "q=albert&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.633239,
+    "lng": -113.628845,
+    "bbox": [
+      53.5995676,
+      53.6873248,
+      -113.7149995,
+      -113.565637
+    ],
+    "countryCode": "ca"
+  },
+  "q=glenmore+reservoir%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.9882056,
+    "lng": -114.1098218,
+    "bbox": [
+      50.9741982,
+      51.0022181,
+      -114.1440573,
+      -114.0958523
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+downtown%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0453239,
+    "lng": -114.0651646,
+    "bbox": [
+      51.0451561,
+      51.0455227,
+      -114.0653911,
+      -114.0649355
+    ],
+    "countryCode": "ca"
+  },
+  "q=the10th+street&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=city+calgary&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.4900069,
+    "lng": -113.4926938,
+    "bbox": [
+      53.4804099,
+      53.4998784,
+      -113.4976785,
+      -113.4904655
+    ],
+    "countryCode": "ca"
+  },
+  "q=sask%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 52.144753,
+    "lng": -117.1176701,
+    "bbox": [
+      52.1397842,
+      52.1513286,
+      -117.131459,
+      -117.1117703
+    ],
+    "countryCode": "ca"
+  },
+  "q=peace+river%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 56.2337111,
+    "lng": -117.2910839,
+    "bbox": [
+      56.1937111,
+      56.2737111,
+      -117.3310839,
+      -117.2510839
+    ],
+    "countryCode": "ca"
+  },
+  "q=alberta+rockies&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.9752469,
+    "lng": -114.0799425,
+    "bbox": [
+      50.9740654,
+      50.9764079,
+      -114.082408,
+      -114.0775243
+    ],
+    "countryCode": "ca"
+  },
+  "q=southern+ab%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0631292,
+    "lng": -114.0878809,
+    "bbox": [
+      51.0595997,
+      51.066743,
+      -114.0939769,
+      -114.0845327
+    ],
+    "countryCode": "ca"
+  },
+  "q=mitford+park&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.1886759,
+    "lng": -114.489806,
+    "bbox": [
+      51.1866169,
+      51.1905951,
+      -114.4965088,
+      -114.4860051
+    ],
+    "countryCode": "ca"
+  },
+  "q=banff+springs+gc%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.1650129,
+    "lng": -115.5627086,
+    "bbox": [
+      51.1616248,
+      51.1655013,
+      -115.5636326,
+      -115.5593264
+    ],
+    "countryCode": "ca"
+  },
+  "q=sandy+beach&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.8091288,
+    "lng": -114.0424855,
+    "bbox": [
+      53.7891288,
+      53.8291288,
+      -114.0624855,
+      -114.0224855
+    ],
+    "countryCode": "ca"
+  },
+  "q=regina%2c+saskatchewan--%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=calgary+streets&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=stonegate+pub%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=tunnel+mountain%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.1775391,
+    "lng": -115.5537599,
+    "bbox": [
+      51.1774891,
+      51.1775891,
+      -115.5538099,
+      -115.5537099
+    ],
+    "countryCode": "ca"
+  },
+  "q=erlton+neighbourhood%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=southern&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0631292,
+    "lng": -114.0878809,
+    "bbox": [
+      51.0595997,
+      51.066743,
+      -114.0939769,
+      -114.0845327
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+public+library&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.9635409,
+    "lng": -114.0865087,
+    "bbox": [
+      50.9634438,
+      50.9636402,
+      -114.0866447,
+      -114.0863713
+    ],
+    "countryCode": "ca"
+  },
+  "q=trans-canada&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.5762048,
+    "lng": -114.206346,
+    "bbox": [
+      51.575996,
+      51.5764144,
+      -114.2065795,
+      -114.2061155
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+mb+churches&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=anchor+pub&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0379842,
+    "lng": -114.073546,
+    "bbox": [
+      51.0379342,
+      51.0380342,
+      -114.073596,
+      -114.073496
+    ],
+    "countryCode": "ca"
+  },
+  "q=canmore+alberta%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0899463,
+    "lng": -115.3532702,
+    "bbox": [
+      51.0896582,
+      51.0902078,
+      -115.3535907,
+      -115.3527178
+    ],
+    "countryCode": "ca"
+  },
+  "q=bow%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.1089033,
+    "lng": -115.402322,
+    "bbox": [
+      51.1075971,
+      51.1098199,
+      -115.404074,
+      -115.4008333
+    ],
+    "countryCode": "ca"
+  },
+  "q=chinook+regional+hospital+%28lethbridge%29%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.6852205,
+    "lng": -112.8162087,
+    "bbox": [
+      49.6838481,
+      49.6866051,
+      -112.8177268,
+      -112.8146852
+    ],
+    "countryCode": "ca"
+  },
+  "q=mcmahon+stadium%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0704233,
+    "lng": -114.1214899,
+    "bbox": [
+      51.0692331,
+      51.0716649,
+      -114.1231097,
+      -114.1197361
+    ],
+    "countryCode": "ca"
+  },
+  "q=canadian+city+of+calgary&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.4877371,
+    "lng": -113.4942705,
+    "bbox": [
+      53.4876549,
+      53.4878696,
+      -113.4945622,
+      -113.4940412
+    ],
+    "countryCode": "ca"
+  },
+  "q=blackie%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.6030153,
+    "lng": -113.6177721,
+    "bbox": [
+      50.5830153,
+      50.6230153,
+      -113.6377721,
+      -113.5977721
+    ],
+    "countryCode": "ca"
+  },
+  "q=ualberta%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=siksika+nation%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0672574,
+    "lng": -114.0604824,
+    "bbox": [
+      51.0670951,
+      51.0674197,
+      -114.0606697,
+      -114.0602951
+    ],
+    "countryCode": "ca"
+  },
+  "q=medicinehat%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=inn+from+the+cold%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0470712,
+    "lng": -114.0765578,
+    "bbox": [
+      51.0470212,
+      51.0471212,
+      -114.0766078,
+      -114.0765078
+    ],
+    "countryCode": "ca"
+  },
+  "q=medicine+hat%2c+alta.%2c%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.04303,
+    "lng": -110.679016,
+    "bbox": [
+      49.9895477,
+      50.1135772,
+      -110.8009864,
+      -110.617509
+    ],
+    "countryCode": "ca"
+  },
+  "q=alberta+communities%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.636509,
+    "lng": -113.3738868,
+    "bbox": [
+      53.631638,
+      53.6410209,
+      -113.3787514,
+      -113.3690409
+    ],
+    "countryCode": "ca"
+  },
+  "q=chicago+bridge%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=calgary%27s+bow+river%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.04684,
+    "lng": -114.1103777,
+    "bbox": [
+      51.04679,
+      51.04689,
+      -114.1104277,
+      -114.1103277
+    ],
+    "countryCode": "ca"
+  },
+  "q=redwood+meadows%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.9904543,
+    "lng": -114.5043434,
+    "bbox": [
+      50.9704543,
+      51.0104543,
+      -114.5243434,
+      -114.4843434
+    ],
+    "countryCode": "ca"
+  },
+  "q=wc+sask&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=stoneynakoda+%23morley%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=louisiana&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0453653,
+    "lng": -114.0692807,
+    "bbox": [
+      51.0453153,
+      51.0454153,
+      -114.0693307,
+      -114.0692307
+    ],
+    "countryCode": "ca"
+  },
+  "q=western+canadi&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=highway&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=qu%e2%80%99appelle+river+system%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=sd%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0302992,
+    "lng": -114.0688319,
+    "bbox": [
+      51.0302383,
+      51.03036,
+      -114.0689231,
+      -114.0687407
+    ],
+    "countryCode": "ca"
+  },
+  "q=stephen+ave%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.046236,
+    "lng": -114.0874263,
+    "bbox": [
+      51.0461999,
+      51.0462746,
+      -114.0886584,
+      -114.0861941
+    ],
+    "countryCode": "ca"
+  },
+  "q=banff%2c%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.175076,
+    "lng": -115.5720773,
+    "bbox": [
+      51.1612529,
+      51.1934089,
+      -115.5910001,
+      -115.5452022
+    ],
+    "countryCode": "ca"
+  },
+  "q=alberta+communities&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.6401431,
+    "lng": -113.3366022,
+    "bbox": [
+      53.6026064,
+      53.6992504,
+      -113.3915207,
+      -113.2714783
+    ],
+    "countryCode": "ca"
+  },
+  "q=the+airport&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0684968,
+    "lng": -114.0130117,
+    "bbox": [
+      51.0684468,
+      51.0685468,
+      -114.0130617,
+      -114.0129617
+    ],
+    "countryCode": "ca"
+  },
+  "q=west%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.3251964,
+    "lng": -113.0464919,
+    "bbox": [
+      53.3229734,
+      53.325764,
+      -113.0501147,
+      -113.0436738
+    ],
+    "countryCode": "ca"
+  },
+  "q=maple+ave%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 54.5804189,
+    "lng": -112.8077554,
+    "bbox": [
+      54.5804139,
+      54.5804238,
+      -112.8091862,
+      -112.8063247
+    ],
+    "countryCode": "ca"
+  },
+  "q=highriver&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=slave+lake%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 55.2810741,
+    "lng": -114.7717876,
+    "bbox": [
+      55.2501659,
+      55.3023935,
+      -114.810457,
+      -114.7327158
+    ],
+    "countryCode": "ca"
+  },
+  "q=centre+st&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0464027,
+    "lng": -114.061784,
+    "bbox": [
+      51.0414027,
+      51.0514027,
+      -114.066784,
+      -114.056784
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+nw&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.075054,
+    "lng": -114.138805,
+    "bbox": [
+      51.0665854,
+      51.0833939,
+      -114.151945,
+      -114.1201822
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+%23alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0456064,
+    "lng": -114.057541,
+    "bbox": [
+      50.842526,
+      51.2125013,
+      -114.3157587,
+      -113.8600018
+    ],
+    "countryCode": "ca"
+  },
+  "q=blackie%2fbrant%2fmossligh%2fcarseland+area%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=s.+alta+farmland%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.494949,
+    "lng": -113.5434407,
+    "bbox": [
+      53.4885541,
+      53.5015292,
+      -113.5581962,
+      -113.5290329
+    ],
+    "countryCode": "ca"
+  },
+  "q=siksika%2c+ab%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.476109,
+    "lng": -112.8778585,
+    "bbox": [
+      53.4742784,
+      53.4796843,
+      -112.8806964,
+      -112.8720001
+    ],
+    "countryCode": "ca"
+  },
+  "q=nm+areas&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=crescent+heights+http%3c%2fs%3e&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=southern+alberta%2c&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0631292,
+    "lng": -114.0878809,
+    "bbox": [
+      51.0595997,
+      51.066743,
+      -114.0939769,
+      -114.0845327
+    ],
+    "countryCode": "ca"
+  },
+  "q=k-country%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=medicinehat&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=windsor-essex%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=turnervalley%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=calgary+neighbourhoods&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=cloverdale&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.5369857,
+    "lng": -113.47264,
+    "bbox": [
+      53.5320598,
+      53.5412209,
+      -113.4867766,
+      -113.4559303
+    ],
+    "countryCode": "ca"
+  },
+  "q=devon&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.3633545,
+    "lng": -113.7316992,
+    "bbox": [
+      53.3377325,
+      53.3724236,
+      -113.7571818,
+      -113.6837366
+    ],
+    "countryCode": "ca"
+  },
+  "q=north+american&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.2003953,
+    "lng": -115.6059947,
+    "bbox": [
+      51.1994747,
+      51.2013159,
+      -115.6118717,
+      -115.6001177
+    ],
+    "countryCode": "ca"
+  },
+  "q=the+city+of&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.9069834,
+    "lng": -119.568601,
+    "bbox": [
+      49.9010784,
+      49.90845,
+      -119.572244,
+      -119.5683625
+    ],
+    "countryCode": "ca"
+  },
+  "q=alberta+cities&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.5313843,
+    "lng": -114.2323732,
+    "bbox": [
+      50.5302586,
+      50.53251,
+      -114.2323791,
+      -114.2323703
+    ],
+    "countryCode": "ca"
+  },
+  "q=richibucto%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=inglewood%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0380591,
+    "lng": -114.0248225,
+    "bbox": [
+      51.0232515,
+      51.0450293,
+      -114.0428006,
+      -114.0029113
+    ],
+    "countryCode": "ca"
+  },
+  "q=lots+3&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=ctvedmonton&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=buffalo%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.8096551,
+    "lng": -110.6800285,
+    "bbox": [
+      50.7896551,
+      50.8296551,
+      -110.7000285,
+      -110.6600285
+    ],
+    "countryCode": "ca"
+  },
+  "q=wayne%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.3859546,
+    "lng": -112.6611978,
+    "bbox": [
+      51.3659546,
+      51.4059546,
+      -112.6811978,
+      -112.6411978
+    ],
+    "countryCode": "ca"
+  },
+  "q=lake&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.1482628,
+    "lng": -117.6755729,
+    "bbox": [
+      53.1465842,
+      53.149944,
+      -117.6790297,
+      -117.6636607
+    ],
+    "countryCode": "ca"
+  },
+  "q=downtown+calgary+area&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=south+line+tunnels%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=three+sisters+parkway%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.054483,
+    "lng": -115.3190673,
+    "bbox": [
+      51.0541685,
+      51.0548316,
+      -115.319424,
+      -115.3186853
+    ],
+    "countryCode": "ca"
+  },
+  "q=ernest+manning+centre%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=medh%e2%80%a6%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=highriver+hospital%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=western+ca&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.0709994,
+    "lng": -113.9868217,
+    "bbox": [
+      49.0709494,
+      49.0710494,
+      -113.9868717,
+      -113.9867717
+    ],
+    "countryCode": "ca"
+  },
+  "q=kootenay+national+parks%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.9418881,
+    "lng": -115.9908336,
+    "bbox": [
+      50.5759335,
+      51.3078493,
+      -116.3607867,
+      -115.8021707
+    ],
+    "countryCode": "ca"
+  },
+  "q=cafe%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=red+deer&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 52.2690628,
+    "lng": -113.8141464,
+    "bbox": [
+      52.2157411,
+      52.3429183,
+      -113.8977285,
+      -113.718502
+    ],
+    "countryCode": "ca"
+  },
+  "q=canmore&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0866897,
+    "lng": -115.3481135,
+    "bbox": [
+      51.0466897,
+      51.1266897,
+      -115.3881135,
+      -115.3081135
+    ],
+    "countryCode": "ca"
+  },
+  "q=high+river%2c+alta.%2c&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.5801916,
+    "lng": -113.8709332,
+    "bbox": [
+      50.5401916,
+      50.6201916,
+      -113.9109332,
+      -113.8309332
+    ],
+    "countryCode": "ca"
+  },
+  "q=north+america%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.8019457,
+    "lng": -113.1061677,
+    "bbox": [
+      49.8018957,
+      49.8019957,
+      -113.1062177,
+      -113.1061177
+    ],
+    "countryCode": "ca"
+  },
+  "q=ca&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 61.0666922,
+    "lng": -107.991707,
+    "bbox": [
+      41.6765597,
+      83.3362128,
+      -141.00275,
+      -52.3237664
+    ],
+    "countryCode": "ca"
+  },
+  "q=aboriginal+centre%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0206814,
+    "lng": -113.9791044,
+    "bbox": [
+      51.020245,
+      51.0210618,
+      -113.979954,
+      -113.978002
+    ],
+    "countryCode": "ca"
+  },
+  "q=south+end+of&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0019482,
+    "lng": -114.0625838,
+    "bbox": [
+      51.0018982,
+      51.0019982,
+      -114.0626338,
+      -114.0625338
+    ],
+    "countryCode": "ca"
+  },
+  "q=centre+street%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0464027,
+    "lng": -114.061784,
+    "bbox": [
+      51.0414027,
+      51.0514027,
+      -114.066784,
+      -114.056784
+    ],
+    "countryCode": "ca"
+  },
+  "q=okotoks&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.7253685,
+    "lng": -113.975082,
+    "bbox": [
+      50.6853685,
+      50.7653685,
+      -114.015082,
+      -113.935082
+    ],
+    "countryCode": "ca"
+  },
+  "q=wedgewoods&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=b.c%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.867515,
+    "lng": -119.429102,
+    "bbox": [
+      49.8672865,
+      49.8675196,
+      -119.4298577,
+      -119.428351
+    ],
+    "countryCode": "ca"
+  },
+  "q=france&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.545855,
+    "lng": -116.7295869,
+    "bbox": [
+      49.5228037,
+      49.5556031,
+      -116.8123088,
+      -116.6440611
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+downtown&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0464963,
+    "lng": -114.0506433,
+    "bbox": [
+      51.0431718,
+      51.0510091,
+      -114.0578391,
+      -114.0406649
+    ],
+    "countryCode": "ca"
+  },
+  "q=alberta%2c+canada+community&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.9584084,
+    "lng": -114.1160285,
+    "bbox": [
+      50.9583985,
+      50.9584187,
+      -114.1160419,
+      -114.1160155
+    ],
+    "countryCode": "ca"
+  },
+  "q=okotoks%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.7253685,
+    "lng": -113.975082,
+    "bbox": [
+      50.6853685,
+      50.7653685,
+      -114.015082,
+      -113.935082
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+set&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.9538744,
+    "lng": -113.92952,
+    "bbox": [
+      50.9537156,
+      50.9540331,
+      -113.9297196,
+      -113.9293203
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary%2c%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0456064,
+    "lng": -114.057541,
+    "bbox": [
+      50.842526,
+      51.2125013,
+      -114.3157587,
+      -113.8600018
+    ],
+    "countryCode": "ca"
+  },
+  "q=hidden+valley+resort%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.6566997,
+    "lng": -110.2607079,
+    "bbox": [
+      49.6565939,
+      49.6568054,
+      -110.2608442,
+      -110.2605715
+    ],
+    "countryCode": "ca"
+  },
+  "q=az%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.9532367,
+    "lng": -114.129854,
+    "bbox": [
+      50.9531867,
+      50.9532867,
+      -114.129904,
+      -114.129804
+    ],
+    "countryCode": "ca"
+  },
+  "q=mission&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0317576,
+    "lng": -114.0667199,
+    "bbox": [
+      51.0284848,
+      51.0378336,
+      -114.0715157,
+      -114.0611154
+    ],
+    "countryCode": "ca"
+  },
+  "q=elevation+place%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0888185,
+    "lng": -115.350652,
+    "bbox": [
+      51.088326,
+      51.089385,
+      -115.351218,
+      -115.349741
+    ],
+    "countryCode": "ca"
+  },
+  "q=3906+edison+cres+sw&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0198268,
+    "lng": -114.0697391,
+    "bbox": [
+      51.0197385,
+      51.0198642,
+      -114.069935,
+      -114.0695432
+    ],
+    "countryCode": "ca"
+  },
+  "q=quarry+park%29&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.9613917,
+    "lng": -114.0109842,
+    "bbox": [
+      50.9513917,
+      50.9713917,
+      -114.0209842,
+      -114.0009842
+    ],
+    "countryCode": "ca"
+  },
+  "q=trans&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0633784,
+    "lng": -113.956688,
+    "bbox": [
+      51.0623204,
+      51.0657942,
+      -113.9581417,
+      -113.9552409
+    ],
+    "countryCode": "ca"
+  },
+  "q=deep+south&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.7411477,
+    "lng": -119.7617615,
+    "bbox": [
+      49.7411181,
+      49.7411774,
+      -119.7618137,
+      -119.7617094
+    ],
+    "countryCode": "ca"
+  },
+  "q=chetwynd%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=northern+bc%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.5933489,
+    "lng": -113.492816,
+    "bbox": [
+      53.5824453,
+      53.6159143,
+      -113.5642727,
+      -113.4180948
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary%e2%80%a6&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0456064,
+    "lng": -114.057541,
+    "bbox": [
+      50.842526,
+      51.2125013,
+      -114.3157587,
+      -113.8600018
+    ],
+    "countryCode": "ca"
+  },
+  "q=foothills+%2331%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.8425781,
+    "lng": -114.0604062,
+    "bbox": [
+      50.8424833,
+      50.842654,
+      -114.0605215,
+      -114.0602927
+    ],
+    "countryCode": "ca"
+  },
+  "q=4th+spot&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0758936,
+    "lng": -114.0712186,
+    "bbox": [
+      51.0758436,
+      51.0759436,
+      -114.0712686,
+      -114.0711686
+    ],
+    "countryCode": "ca"
+  },
+  "q=bow+city%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.4359857,
+    "lng": -112.2229134,
+    "bbox": [
+      50.4159857,
+      50.4559857,
+      -112.2429134,
+      -112.2029134
+    ],
+    "countryCode": "ca"
+  },
+  "q=macleod&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.7216652,
+    "lng": -113.4001447,
+    "bbox": [
+      49.6986737,
+      49.7427054,
+      -113.434086,
+      -113.3662387
+    ],
+    "countryCode": "ca"
+  },
+  "q=canmore+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0866897,
+    "lng": -115.3481135,
+    "bbox": [
+      51.0466897,
+      51.1266897,
+      -115.3881135,
+      -115.3081135
+    ],
+    "countryCode": "ca"
+  },
+  "q=siksika+first+nation&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=dome%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 52.1873861,
+    "lng": -117.317115,
+    "bbox": [
+      52.1873361,
+      52.1874361,
+      -117.317165,
+      -117.317065
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+gardens%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0760206,
+    "lng": -114.1402592,
+    "bbox": [
+      51.0759736,
+      51.0760676,
+      -114.1409615,
+      -114.1395568
+    ],
+    "countryCode": "ca"
+  },
+  "q=high+river+ops+centre%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=mikeysjukejoint%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=stoney+nakoda+nation%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.1958703,
+    "lng": -114.9826439,
+    "bbox": [
+      50.3971568,
+      52.4068579,
+      -116.2953825,
+      -114.299525
+    ],
+    "countryCode": "ca"
+  },
+  "q=southern+%23alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0631292,
+    "lng": -114.0878809,
+    "bbox": [
+      51.0595997,
+      51.066743,
+      -114.0939769,
+      -114.0845327
+    ],
+    "countryCode": "ca"
+  },
+  "q=prince%27s+island+park&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0551846,
+    "lng": -114.0706486,
+    "bbox": [
+      51.0535201,
+      51.0567739,
+      -114.0777739,
+      -114.0643517
+    ],
+    "countryCode": "ca"
+  },
+  "q=town+of+devon%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.3448929,
+    "lng": -113.7256735,
+    "bbox": [
+      53.3448225,
+      53.3449631,
+      -113.7261859,
+      -113.7251611
+    ],
+    "countryCode": "ca"
+  },
+  "q=rocky+mountains%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.4144355,
+    "lng": -114.4365979,
+    "bbox": [
+      49.4143855,
+      49.4144855,
+      -114.4366479,
+      -114.4365479
+    ],
+    "countryCode": "ca"
+  },
+  "q=canmore+golf+course%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.1061778,
+    "lng": -115.3732678,
+    "bbox": [
+      51.0990487,
+      51.1132241,
+      -115.379244,
+      -115.3641701
+    ],
+    "countryCode": "ca"
+  },
+  "q=sobeys%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.8982803,
+    "lng": -113.9422607,
+    "bbox": [
+      50.8982303,
+      50.8983303,
+      -113.9423107,
+      -113.9422107
+    ],
+    "countryCode": "ca"
+  },
+  "q=bowcrest+centre%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=%40useredwoodmeadows%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=can%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0414312,
+    "lng": -114.0176929,
+    "bbox": [
+      51.0412586,
+      51.0416119,
+      -114.0178205,
+      -114.0175798
+    ],
+    "countryCode": "ca"
+  },
+  "q=global+calgary&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.054289,
+    "lng": -114.0031056,
+    "bbox": [
+      51.0540513,
+      51.0545343,
+      -114.003573,
+      -114.0026568
+    ],
+    "countryCode": "ca"
+  },
+  "q=nanton%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.3481989,
+    "lng": -113.770256,
+    "bbox": [
+      50.3391186,
+      50.3572055,
+      -113.7970799,
+      -113.7559014
+    ],
+    "countryCode": "ca"
+  },
+  "q=north+west%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 55.7116301,
+    "lng": -116.9128822,
+    "bbox": [
+      55.7115963,
+      55.711664,
+      -116.9130305,
+      -116.9127339
+    ],
+    "countryCode": "ca"
+  },
+  "q=st.+georges+island&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=buffalo+run+golf+course%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=se%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.4231146,
+    "lng": -113.427807,
+    "bbox": [
+      53.395873,
+      53.4322765,
+      -113.4427808,
+      -113.3935672
+    ],
+    "countryCode": "ca"
+  },
+  "q=cambodian+orphanage%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=chaparral+valley&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.8850542,
+    "lng": -114.0154368,
+    "bbox": [
+      50.8750542,
+      50.8950542,
+      -114.0254368,
+      -114.0054368
+    ],
+    "countryCode": "ca"
+  },
+  "q=elbow+river&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.9834081,
+    "lng": -114.5197369,
+    "bbox": [
+      50.6424796,
+      51.0478146,
+      -115.0068034,
+      -114.0381176
+    ],
+    "countryCode": "ca"
+  },
+  "q=siksika+nation.%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0672574,
+    "lng": -114.0604824,
+    "bbox": [
+      51.0670951,
+      51.0674197,
+      -114.0606697,
+      -114.0602951
+    ],
+    "countryCode": "ca"
+  },
+  "q=tch+bridge%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=canmore%2c+ab&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0866897,
+    "lng": -115.3481135,
+    "bbox": [
+      51.0466897,
+      51.1266897,
+      -115.3881135,
+      -115.3081135
+    ],
+    "countryCode": "ca"
+  },
+  "q=transcanada+%23hwy1%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=beltline&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0404978,
+    "lng": -114.0725934,
+    "bbox": [
+      51.0300236,
+      51.0448519,
+      -114.094722,
+      -114.0428006
+    ],
+    "countryCode": "ca"
+  },
+  "q=sheep+river%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.6417161,
+    "lng": -114.3755823,
+    "bbox": [
+      50.5958004,
+      50.7397843,
+      -114.9560322,
+      -113.8547572
+    ],
+    "countryCode": "ca"
+  },
+  "q=canadian+rockies%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0375675,
+    "lng": -114.0972202,
+    "bbox": [
+      51.0375138,
+      51.0376521,
+      -114.0974763,
+      -114.0969337
+    ],
+    "countryCode": "ca"
+  },
+  "q=canmore+area%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0905935,
+    "lng": -115.3551847,
+    "bbox": [
+      51.0905435,
+      51.0906435,
+      -115.3552347,
+      -115.3551347
+    ],
+    "countryCode": "ca"
+  },
+  "q=4th+ave&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.5064723,
+    "lng": -115.061386,
+    "bbox": [
+      49.5023117,
+      49.5105935,
+      -115.0654836,
+      -115.0572365
+    ],
+    "countryCode": "ca"
+  },
+  "q=bearberry%2c%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.7623873,
+    "lng": -114.7145244,
+    "bbox": [
+      51.7592165,
+      51.765801,
+      -114.7220395,
+      -114.7103663
+    ],
+    "countryCode": "ca"
+  },
+  "q=health%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=red+deer+river%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.8264457,
+    "lng": -114.6187576,
+    "bbox": [
+      51.8235073,
+      51.8305234,
+      -114.6218772,
+      -114.6178388
+    ],
+    "countryCode": "ca"
+  },
+  "q=black+diamond%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.7227635,
+    "lng": -114.1803714,
+    "bbox": [
+      50.7077635,
+      50.7377635,
+      -114.1953714,
+      -114.1653714
+    ],
+    "countryCode": "ca"
+  },
+  "q=sydney%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.9610172,
+    "lng": -114.0899701,
+    "bbox": [
+      50.9608553,
+      50.9620504,
+      -114.0910915,
+      -114.088439
+    ],
+    "countryCode": "ca"
+  },
+  "q=southern+alberta+canada&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0631292,
+    "lng": -114.0878809,
+    "bbox": [
+      51.0595997,
+      51.066743,
+      -114.0939769,
+      -114.0845327
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+stores&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0589818,
+    "lng": -114.0143355,
+    "bbox": [
+      51.0589318,
+      51.0590318,
+      -114.0143855,
+      -114.0142855
+    ],
+    "countryCode": "ca"
+  },
+  "q=fire+station%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.5706503,
+    "lng": -113.5241496,
+    "bbox": [
+      53.5698805,
+      53.5713806,
+      -113.5251778,
+      -113.5227719
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary&featuretype=settlement&viewbox=-95.1560176%2c56.8613501%2c-74.3201062%2c41.6765597&bounded=1&countrycodes=ca": null,
+  "q=calgary+office%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.084933,
+    "lng": -114.1260513,
+    "bbox": [
+      51.084883,
+      51.084983,
+      -114.1261013,
+      -114.1260013
+    ],
+    "countryCode": "ca"
+  },
+  "q=stampede+grounds&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.46088,
+    "lng": -112.6502699,
+    "bbox": [
+      49.46083,
+      49.46093,
+      -112.6503199,
+      -112.6502199
+    ],
+    "countryCode": "ca"
+  },
+  "q=bow+valley&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0723369,
+    "lng": -115.1001751,
+    "bbox": [
+      50.965097,
+      51.1016213,
+      -115.3217723,
+      -115.0116986
+    ],
+    "countryCode": "ca"
+  },
+  "q=western+canada%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.0709994,
+    "lng": -113.9868217,
+    "bbox": [
+      49.0709494,
+      49.0710494,
+      -113.9868717,
+      -113.9867717
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+neighbourhoods%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=100-201+southridge+dr%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.7159418,
+    "lng": -113.9809387,
+    "bbox": [
+      50.7156808,
+      50.7163262,
+      -113.981449,
+      -113.9803536
+    ],
+    "countryCode": "ca"
+  },
+  "q=yyc%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.1222604,
+    "lng": -114.013541,
+    "bbox": [
+      51.0930394,
+      51.1540197,
+      -114.0424778,
+      -113.9865157
+    ],
+    "countryCode": "ca"
+  },
+  "q=kensington&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.5957958,
+    "lng": -113.528911,
+    "bbox": [
+      53.5921512,
+      53.5995542,
+      -113.5412161,
+      -113.516567
+    ],
+    "countryCode": "ca"
+  },
+  "q=b%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 52.8422867,
+    "lng": -118.0651989,
+    "bbox": [
+      52.8422587,
+      52.8423147,
+      -118.065317,
+      -118.0650808
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40useraradisecanyon%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=lynx+ridge+golf+http&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=ea&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.1276897,
+    "lng": -113.9987627,
+    "bbox": [
+      51.1273597,
+      51.1280198,
+      -113.9987631,
+      -113.9987626
+    ],
+    "countryCode": "ca"
+  },
+  "q=alberta%2ccanada&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 55.001251,
+    "lng": -115.002136,
+    "bbox": [
+      48.996665,
+      60.0004699,
+      -120.0013835,
+      -110.0047639
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+jewish+center&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=northwest%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.566821,
+    "lng": -113.596612,
+    "bbox": [
+      53.5630231,
+      53.570441,
+      -113.6028133,
+      -113.5903953
+    ],
+    "countryCode": "ca"
+  },
+  "q=morley+reserve%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=british+columbia%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 49.867515,
+    "lng": -119.429102,
+    "bbox": [
+      49.8672865,
+      49.8675196,
+      -119.4298577,
+      -119.428351
+    ],
+    "countryCode": "ca"
+  },
+  "q=barrie%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.4213732,
+    "lng": -113.510171,
+    "bbox": [
+      53.4211224,
+      53.4219275,
+      -113.5106821,
+      -113.5099942
+    ],
+    "countryCode": "ca"
+  },
+  "q=opaskwayak+cree+nation%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=calgary%27s+downtown%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0507693,
+    "lng": -114.0623695,
+    "bbox": [
+      51.050741,
+      51.0507986,
+      -114.0625259,
+      -114.0622139
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+alberta+canada&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0456064,
+    "lng": -114.057541,
+    "bbox": [
+      50.842526,
+      51.2125013,
+      -114.3157587,
+      -113.8600018
+    ],
+    "countryCode": "ca"
+  },
+  "q=transcanada%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 52.3740933,
+    "lng": -114.9113252,
+    "bbox": [
+      52.3738638,
+      52.3742758,
+      -114.9115987,
+      -114.9109097
+    ],
+    "countryCode": "ca"
+  },
+  "q=rossdale+power+plant&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.5292346,
+    "lng": -113.4987136,
+    "bbox": [
+      53.5285804,
+      53.5296866,
+      -113.4991432,
+      -113.4983125
+    ],
+    "countryCode": "ca"
+  },
+  "q=highriver+welcome+centre%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=medicine+hat&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.04303,
+    "lng": -110.679016,
+    "bbox": [
+      49.9895477,
+      50.1135772,
+      -110.8009864,
+      -110.617509
+    ],
+    "countryCode": "ca"
+  },
+  "q=highriver+home%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=india%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.9638394,
+    "lng": -114.084345,
+    "bbox": [
+      50.9637894,
+      50.9638894,
+      -114.084395,
+      -114.084295
+    ],
+    "countryCode": "ca"
+  },
+  "q=southern+albert&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=trans+canada%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.5762048,
+    "lng": -114.206346,
+    "bbox": [
+      51.575996,
+      51.5764144,
+      -114.2065795,
+      -114.2061155
+    ],
+    "countryCode": "ca"
+  },
+  "q=bc%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.1316077,
+    "lng": -113.9973658,
+    "bbox": [
+      51.1316025,
+      51.1316089,
+      -114.0002918,
+      -113.9944399
+    ],
+    "countryCode": "ca"
+  },
+  "q=churchill+square&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 54.4109072,
+    "lng": -110.2746851,
+    "bbox": [
+      54.4108964,
+      54.4126355,
+      -110.2766114,
+      -110.2740413
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40userowanhouse%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=calgary+court+house%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=red+deer%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 52.2690628,
+    "lng": -113.8141464,
+    "bbox": [
+      52.2157411,
+      52.3429183,
+      -113.8977285,
+      -113.718502
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary%2c+alberta+%28western+canada&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0364362,
+    "lng": -114.0769601,
+    "bbox": [
+      51.0350875,
+      51.0377376,
+      -114.0782466,
+      -114.0756741
+    ],
+    "countryCode": "ca"
+  },
+  "q=goldbar+off-leash+park%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=calgary+landmarks&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=province&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.53396,
+    "lng": -113.9737805,
+    "bbox": [
+      53.0467121,
+      54.0218414,
+      -115.1174333,
+      -112.8404693
+    ],
+    "countryCode": "ca"
+  },
+  "q=6110+34th+street+sw%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=airport%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.1310612,
+    "lng": -114.0096065,
+    "bbox": [
+      51.1310112,
+      51.1311112,
+      -114.0096565,
+      -114.0095565
+    ],
+    "countryCode": "ca"
+  },
+  "q=fort+mcmurray%2c+alberta%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 56.7291997,
+    "lng": -111.3885221,
+    "bbox": [
+      56.6437458,
+      56.8044658,
+      -111.5109382,
+      -111.2070503
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary%2fcanmore&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.0798245,
+    "lng": -114.1091026,
+    "bbox": [
+      51.0772238,
+      51.0823694,
+      -114.1152279,
+      -114.1063793
+    ],
+    "countryCode": "ca"
+  },
+  "q=albertas%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=pedi+bridge&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=mchugh+bluff+park%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=rideau%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.4787577,
+    "lng": -113.507575,
+    "bbox": [
+      53.4750186,
+      53.4827934,
+      -113.5164815,
+      -113.4954539
+    ],
+    "countryCode": "ca"
+  },
+  "q=downtown%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0464963,
+    "lng": -114.0506433,
+    "bbox": [
+      51.0431718,
+      51.0510091,
+      -114.0578391,
+      -114.0406649
+    ],
+    "countryCode": "ca"
+  },
+  "q=canada%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0456064,
+    "lng": -114.057541,
+    "bbox": [
+      50.842526,
+      51.2125013,
+      -114.3157587,
+      -113.8600018
+    ],
+    "countryCode": "ca"
+  },
+  "q=mission%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0317576,
+    "lng": -114.0667199,
+    "bbox": [
+      51.0284848,
+      51.0378336,
+      -114.0715157,
+      -114.0611154
+    ],
+    "countryCode": "ca"
+  },
+  "q=yyc%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.1222604,
+    "lng": -114.013541,
+    "bbox": [
+      51.0930394,
+      51.1540197,
+      -114.0424778,
+      -113.9865157
+    ],
+    "countryCode": "ca"
+  },
+  "q=saddledome%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0374124,
+    "lng": -114.0519642,
+    "bbox": [
+      51.036772,
+      51.0380286,
+      -114.0530672,
+      -114.0509666
+    ],
+    "countryCode": "ca"
+  },
+  "q=bowness%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0892766,
+    "lng": -114.1930754,
+    "bbox": [
+      51.067767,
+      51.0989276,
+      -114.2334719,
+      -114.1666959
+    ],
+    "countryCode": "ca"
+  },
+  "q=yyc%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.1222604,
+    "lng": -114.013541,
+    "bbox": [
+      51.0930394,
+      51.1540197,
+      -114.0424778,
+      -113.9865157
+    ],
+    "countryCode": "ca"
+  },
+  "q=high+river%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9853555,
+    "lng": -114.1088216,
+    "bbox": [
+      50.985332,
+      50.985379,
+      -114.1088702,
+      -114.1087731
+    ],
+    "countryCode": "ca"
+  },
+  "q=southern+alberta%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0631292,
+    "lng": -114.0878809,
+    "bbox": [
+      51.0595997,
+      51.066743,
+      -114.0939769,
+      -114.0845327
+    ],
+    "countryCode": "ca"
+  },
+  "q=bow+river%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0850019,
+    "lng": -114.1759192,
+    "bbox": [
+      51.0803475,
+      51.0899286,
+      -114.1869177,
+      -114.1686955
+    ],
+    "countryCode": "ca"
+  },
+  "q=mcmahon+stadium%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0704233,
+    "lng": -114.1214899,
+    "bbox": [
+      51.0692331,
+      51.0716649,
+      -114.1231097,
+      -114.1197361
+    ],
+    "countryCode": "ca"
+  },
+  "q=downtown%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0464963,
+    "lng": -114.0506433,
+    "bbox": [
+      51.0431718,
+      51.0510091,
+      -114.0578391,
+      -114.0406649
+    ],
+    "countryCode": "ca"
+  },
+  "q=downtown+calgary%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.044109,
+    "lng": -114.0658683,
+    "bbox": [
+      51.039109,
+      51.049109,
+      -114.0708683,
+      -114.0608683
+    ],
+    "countryCode": "ca"
+  },
+  "q=mcmahon%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0704233,
+    "lng": -114.1214899,
+    "bbox": [
+      51.0692331,
+      51.0716649,
+      -114.1231097,
+      -114.1197361
+    ],
+    "countryCode": "ca"
+  },
+  "q=inglewood%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0380591,
+    "lng": -114.0248225,
+    "bbox": [
+      51.0232515,
+      51.0450293,
+      -114.0428006,
+      -114.0029113
+    ],
+    "countryCode": "ca"
+  },
+  "q=macleod+trail%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.966957,
+    "lng": -114.0697762,
+    "bbox": [
+      50.9651764,
+      50.9685512,
+      -114.0712799,
+      -114.0682623
+    ],
+    "countryCode": "ca"
+  },
+  "q=city+of%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0344862,
+    "lng": -113.9532925,
+    "bbox": [
+      51.0333626,
+      51.0354072,
+      -113.9556548,
+      -113.952558
+    ],
+    "countryCode": "ca"
+  },
+  "q=bowness%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0892766,
+    "lng": -114.1930754,
+    "bbox": [
+      51.067767,
+      51.0989276,
+      -114.2334719,
+      -114.1666959
+    ],
+    "countryCode": "ca"
+  },
+  "q=erlton%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0290858,
+    "lng": -114.0612758,
+    "bbox": [
+      51.0227341,
+      51.0358868,
+      -114.0673039,
+      -114.0589871
+    ],
+    "countryCode": "ca"
+  },
+  "q=beltline%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0404978,
+    "lng": -114.0725934,
+    "bbox": [
+      51.0300236,
+      51.0448519,
+      -114.094722,
+      -114.0428006
+    ],
+    "countryCode": "ca"
+  },
+  "q=sunnyside%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0578696,
+    "lng": -114.0787405,
+    "bbox": [
+      51.0504894,
+      51.0623502,
+      -114.0859902,
+      -114.0624082
+    ],
+    "countryCode": "ca"
+  },
+  "q=bow%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0478593,
+    "lng": -114.0619603,
+    "bbox": [
+      51.0475174,
+      51.0482003,
+      -114.0626244,
+      -114.0613171
+    ],
+    "countryCode": "ca"
+  },
+  "q=high+river%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9853555,
+    "lng": -114.1088216,
+    "bbox": [
+      50.985332,
+      50.985379,
+      -114.1088702,
+      -114.1087731
+    ],
+    "countryCode": "ca"
+  },
+  "q=siksika%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0672574,
+    "lng": -114.0604824,
+    "bbox": [
+      51.0670951,
+      51.0674197,
+      -114.0606697,
+      -114.0602951
+    ],
+    "countryCode": "ca"
+  },
+  "q=dome%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0463544,
+    "lng": -114.0695286,
+    "bbox": [
+      51.0462422,
+      51.0465749,
+      -114.0698085,
+      -114.0690652
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary%2c+alberta%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.075054,
+    "lng": -114.138805,
+    "bbox": [
+      51.0665854,
+      51.0833939,
+      -114.151945,
+      -114.1201822
+    ],
+    "countryCode": "ca"
+  },
+  "q=western+canadian+city+of%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=prince%27s+island+park%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0551846,
+    "lng": -114.0706486,
+    "bbox": [
+      51.0535201,
+      51.0567739,
+      -114.0777739,
+      -114.0643517
+    ],
+    "countryCode": "ca"
+  },
+  "q=yy%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=canmore%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0798245,
+    "lng": -114.1091026,
+    "bbox": [
+      51.0772238,
+      51.0823694,
+      -114.1152279,
+      -114.1063793
+    ],
+    "countryCode": "ca"
+  },
+  "q=medicine+hat%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=downtown+%23yyc%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=downtown+core%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0473777,
+    "lng": -114.0671989,
+    "bbox": [
+      51.0437498,
+      51.0508017,
+      -114.0838149,
+      -114.0553741
+    ],
+    "countryCode": "ca"
+  },
+  "q=saddledome%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0374124,
+    "lng": -114.0519642,
+    "bbox": [
+      51.036772,
+      51.0380286,
+      -114.0530672,
+      -114.0509666
+    ],
+    "countryCode": "ca"
+  },
+  "q=downtown+core%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0473777,
+    "lng": -114.0671989,
+    "bbox": [
+      51.0437498,
+      51.0508017,
+      -114.0838149,
+      -114.0553741
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgarydropin%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=canmore%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0798245,
+    "lng": -114.1091026,
+    "bbox": [
+      51.0772238,
+      51.0823694,
+      -114.1152279,
+      -114.1063793
+    ],
+    "countryCode": "ca"
+  },
+  "q=southern+alberta%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0631292,
+    "lng": -114.0878809,
+    "bbox": [
+      51.0595997,
+      51.066743,
+      -114.0939769,
+      -114.0845327
+    ],
+    "countryCode": "ca"
+  },
+  "q=elbow%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0206343,
+    "lng": -114.0784467,
+    "bbox": [
+      51.0125799,
+      51.0301342,
+      -114.0947105,
+      -114.0684455
+    ],
+    "countryCode": "ca"
+  },
+  "q=canada%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0631292,
+    "lng": -114.0878809,
+    "bbox": [
+      51.0595997,
+      51.066743,
+      -114.0939769,
+      -114.0845327
+    ],
+    "countryCode": "ca"
+  },
+  "q=discovery+ridge%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.012741,
+    "lng": -114.203496,
+    "bbox": [
+      51.0086247,
+      51.0235199,
+      -114.2343917,
+      -114.1877138
+    ],
+    "countryCode": "ca"
+  },
+  "q=elbow+park%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0206343,
+    "lng": -114.0784467,
+    "bbox": [
+      51.0125799,
+      51.0301342,
+      -114.0947105,
+      -114.0684455
+    ],
+    "countryCode": "ca"
+  },
+  "q=peace+bridge%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0539136,
+    "lng": -114.0789104,
+    "bbox": [
+      51.0534898,
+      51.0543372,
+      -114.0795267,
+      -114.0782939
+    ],
+    "countryCode": "ca"
+  },
+  "q=victoria+park%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.040035,
+    "lng": -114.0618996,
+    "bbox": [
+      51.030035,
+      51.050035,
+      -114.0718996,
+      -114.0518996
+    ],
+    "countryCode": "ca"
+  },
+  "q=nanaimo%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=deer+run%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9202967,
+    "lng": -114.0070381,
+    "bbox": [
+      50.90745,
+      50.938462,
+      -114.0218516,
+      -113.9963191
+    ],
+    "countryCode": "ca"
+  },
+  "q=emergency%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.004819,
+    "lng": -114.071135,
+    "bbox": [
+      51.0046246,
+      51.0050999,
+      -114.0713325,
+      -114.0709372
+    ],
+    "countryCode": "ca"
+  },
+  "q=uk%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=douglasdale%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9396536,
+    "lng": -113.9907927,
+    "bbox": [
+      50.9296536,
+      50.9496536,
+      -114.0007927,
+      -113.9807927
+    ],
+    "countryCode": "ca"
+  },
+  "q=scotiabank+saddledome%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0374124,
+    "lng": -114.0519642,
+    "bbox": [
+      51.036772,
+      51.0380286,
+      -114.0530672,
+      -114.0509666
+    ],
+    "countryCode": "ca"
+  },
+  "q=sandy+beach%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0121573,
+    "lng": -114.0935653,
+    "bbox": [
+      51.0075901,
+      51.0167299,
+      -114.0948448,
+      -114.0861131
+    ],
+    "countryCode": "ca"
+  },
+  "q=montreal%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0312391,
+    "lng": -114.0912693,
+    "bbox": [
+      51.0306393,
+      51.0313385,
+      -114.0937597,
+      -114.0889927
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40calgarydropin%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=toronto%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0603405,
+    "lng": -114.123914,
+    "bbox": [
+      51.0599146,
+      51.0624581,
+      -114.1295305,
+      -114.118702
+    ],
+    "countryCode": "ca"
+  },
+  "q=highriver%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=4th+st%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.1027132,
+    "lng": -114.0720293,
+    "bbox": [
+      51.1026632,
+      51.1027632,
+      -114.0720793,
+      -114.0719793
+    ],
+    "countryCode": "ca"
+  },
+  "q=siksika%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0672574,
+    "lng": -114.0604824,
+    "bbox": [
+      51.0670951,
+      51.0674197,
+      -114.0606697,
+      -114.0602951
+    ],
+    "countryCode": "ca"
+  },
+  "q=the+saddledome%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=kensington%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0528666,
+    "lng": -114.1051459,
+    "bbox": [
+      51.0525989,
+      51.0529911,
+      -114.1054645,
+      -114.1048279
+    ],
+    "countryCode": "ca"
+  },
+  "q=prince%27s+island%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0551846,
+    "lng": -114.0706486,
+    "bbox": [
+      51.0535201,
+      51.0567739,
+      -114.0777739,
+      -114.0643517
+    ],
+    "countryCode": "ca"
+  },
+  "q=inglewood%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0380591,
+    "lng": -114.0248225,
+    "bbox": [
+      51.0232515,
+      51.0450293,
+      -114.0428006,
+      -114.0029113
+    ],
+    "countryCode": "ca"
+  },
+  "q=airdrie%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9848849,
+    "lng": -114.1074198,
+    "bbox": [
+      50.9848453,
+      50.9849245,
+      -114.1074744,
+      -114.1073653
+    ],
+    "countryCode": "ca"
+  },
+  "q=deerfoot+trail%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.971932,
+    "lng": -114.0380319,
+    "bbox": [
+      50.9633251,
+      50.9814206,
+      -114.0406966,
+      -114.0316964
+    ],
+    "countryCode": "ca"
+  },
+  "q=banff%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0714621,
+    "lng": -114.1116473,
+    "bbox": [
+      51.0669671,
+      51.0836049,
+      -114.1256869,
+      -114.1045511
+    ],
+    "countryCode": "ca"
+  },
+  "q=east+inglewood%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=niagara+falls%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=s%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.1153605,
+    "lng": -113.9924442,
+    "bbox": [
+      51.1153604,
+      51.1153638,
+      -113.9938869,
+      -113.9910015
+    ],
+    "countryCode": "ca"
+  },
+  "q=centre+st+bridge%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0529915,
+    "lng": -114.0625481,
+    "bbox": [
+      51.0517745,
+      51.0539484,
+      -114.0627397,
+      -114.0623586
+    ],
+    "countryCode": "ca"
+  },
+  "q=banff%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0714621,
+    "lng": -114.1116473,
+    "bbox": [
+      51.0669671,
+      51.0836049,
+      -114.1256869,
+      -114.1045511
+    ],
+    "countryCode": "ca"
+  },
+  "q=alley%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=core%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0462456,
+    "lng": -114.0703547,
+    "bbox": [
+      51.0457718,
+      51.0466586,
+      -114.0726814,
+      -114.0680594
+    ],
+    "countryCode": "ca"
+  },
+  "q=eau+claire%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0525789,
+    "lng": -114.0703115,
+    "bbox": [
+      51.0504122,
+      51.0567997,
+      -114.0834005,
+      -114.0674561
+    ],
+    "countryCode": "ca"
+  },
+  "q=inglewoodyyc%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=city+hall%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0463194,
+    "lng": -114.0567906,
+    "bbox": [
+      51.0413194,
+      51.0513194,
+      -114.0617906,
+      -114.0517906
+    ],
+    "countryCode": "ca"
+  },
+  "q=queensland%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9384595,
+    "lng": -114.0219679,
+    "bbox": [
+      50.9311611,
+      50.9452939,
+      -114.0330686,
+      -114.0129636
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+area%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0703728,
+    "lng": -114.1159608,
+    "bbox": [
+      51.070143,
+      51.0706319,
+      -114.1164139,
+      -114.1155299
+    ],
+    "countryCode": "ca"
+  },
+  "q=stampede+park%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0357314,
+    "lng": -114.054404,
+    "bbox": [
+      51.0300201,
+      51.0413893,
+      -114.0589013,
+      -114.0448755
+    ],
+    "countryCode": "ca"
+  },
+  "q=stanley+park%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0185246,
+    "lng": -114.0678983,
+    "bbox": [
+      51.0138405,
+      51.0232686,
+      -114.0760595,
+      -114.0670434
+    ],
+    "countryCode": "ca"
+  },
+  "q=western+canadian%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0821343,
+    "lng": -114.004257,
+    "bbox": [
+      51.0820843,
+      51.0821843,
+      -114.004307,
+      -114.004207
+    ],
+    "countryCode": "ca"
+  },
+  "q=eoc%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=the+dome%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=east+village%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0455616,
+    "lng": -114.0542081,
+    "bbox": [
+      51.0453827,
+      51.0457386,
+      -114.0544301,
+      -114.0539823
+    ],
+    "countryCode": "ca"
+  },
+  "q=chinatown%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0506542,
+    "lng": -114.0626107,
+    "bbox": [
+      51.0491952,
+      51.0564516,
+      -114.0676191,
+      -114.0577023
+    ],
+    "countryCode": "ca"
+  },
+  "q=millennium+park%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0462291,
+    "lng": -114.0916769,
+    "bbox": [
+      51.0454997,
+      51.0469397,
+      -114.0937195,
+      -114.0898263
+    ],
+    "countryCode": "ca"
+  },
+  "q=siska%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=south+alberta%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0264003,
+    "lng": -114.0951635,
+    "bbox": [
+      51.0261684,
+      51.0266043,
+      -114.0953455,
+      -114.0949817
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40cgyfarmersmarkt%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=5th+ave%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0492352,
+    "lng": -114.0512239,
+    "bbox": [
+      51.0483866,
+      51.0500393,
+      -114.0531527,
+      -114.0503805
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+dams%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=city+of+calgary%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9784529,
+    "lng": -114.0601873,
+    "bbox": [
+      50.9784029,
+      50.9785029,
+      -114.0602373,
+      -114.0601373
+    ],
+    "countryCode": "ca"
+  },
+  "q=memorial+drive%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0513881,
+    "lng": -114.0872679,
+    "bbox": [
+      51.0511875,
+      51.051601,
+      -114.0878966,
+      -114.0866394
+    ],
+    "countryCode": "ca"
+  },
+  "q=qe2%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=yeg%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=%40useralismancentre%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=10th+street+bridge%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0987679,
+    "lng": -114.2104048,
+    "bbox": [
+      51.0981858,
+      51.0993499,
+      -114.2105596,
+      -114.2102501
+    ],
+    "countryCode": "ca"
+  },
+  "q=td+mall%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=inn+from%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0470712,
+    "lng": -114.0765578,
+    "bbox": [
+      51.0470212,
+      51.0471212,
+      -114.0766078,
+      -114.0765078
+    ],
+    "countryCode": "ca"
+  },
+  "q=mission+apartment%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=children%27s+hosp%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0754114,
+    "lng": -114.1466136,
+    "bbox": [
+      51.0753614,
+      51.0754614,
+      -114.1466636,
+      -114.1465636
+    ],
+    "countryCode": "ca"
+  },
+  "q=western+canadian+city%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=downtown+7th+ave+calgary%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=france%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.979096,
+    "lng": -114.0826728,
+    "bbox": [
+      50.979046,
+      50.979146,
+      -114.0827228,
+      -114.0826228
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgarys%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=%40user%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9965112,
+    "lng": -114.0560449,
+    "bbox": [
+      50.9964431,
+      50.9965578,
+      -114.0568976,
+      -114.0551922
+    ],
+    "countryCode": "ca"
+  },
+  "q=connaught+areas%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=sait+senator+burns+parking+lot%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=chinook+center%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.993075,
+    "lng": -114.0894343,
+    "bbox": [
+      50.992399,
+      50.9938083,
+      -114.0899051,
+      -114.0889133
+    ],
+    "countryCode": "ca"
+  },
+  "q=glenmore%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9882056,
+    "lng": -114.1098218,
+    "bbox": [
+      50.9741982,
+      51.0022181,
+      -114.1440573,
+      -114.0958523
+    ],
+    "countryCode": "ca"
+  },
+  "q=mission+road%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0243563,
+    "lng": -114.0684976,
+    "bbox": [
+      51.0232348,
+      51.0253165,
+      -114.0707537,
+      -114.0662986
+    ],
+    "countryCode": "ca"
+  },
+  "q=scotsman%27s+hill%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0365004,
+    "lng": -114.0476171,
+    "bbox": [
+      51.0364504,
+      51.0365504,
+      -114.0476671,
+      -114.0475671
+    ],
+    "countryCode": "ca"
+  },
+  "q=hotel+europa....gastown......%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=c%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0591814,
+    "lng": -113.9771395,
+    "bbox": [
+      51.0588645,
+      51.0592954,
+      -113.978042,
+      -113.977002
+    ],
+    "countryCode": "ca"
+  },
+  "q=stanley+park+outdoor+pool%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0173603,
+    "lng": -114.0695848,
+    "bbox": [
+      51.017242,
+      51.0175189,
+      -114.0697349,
+      -114.0691752
+    ],
+    "countryCode": "ca"
+  },
+  "q=the+golden+age+club%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.045315,
+    "lng": -114.0501888,
+    "bbox": [
+      51.045265,
+      51.045365,
+      -114.0502388,
+      -114.0501388
+    ],
+    "countryCode": "ca"
+  },
+  "q=northbound+macleod+trail%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0059752,
+    "lng": -114.0693867,
+    "bbox": [
+      51.0059252,
+      51.0060252,
+      -114.0694367,
+      -114.0693367
+    ],
+    "countryCode": "ca"
+  },
+  "q=info%40mckenziemeadows%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=okotoks+costco%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=montgomery%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0748016,
+    "lng": -114.1624739,
+    "bbox": [
+      51.060656,
+      51.0814756,
+      -114.1790329,
+      -114.1478098
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+alberta+canada%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0677635,
+    "lng": -114.0101353,
+    "bbox": [
+      51.0674762,
+      51.0681066,
+      -114.0109233,
+      -114.0095635
+    ],
+    "countryCode": "ca"
+  },
+  "q=downtown+area%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=south+fish+creek+recreation+complex%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=cpa%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=downtown+%23calgary%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.044109,
+    "lng": -114.0658683,
+    "bbox": [
+      51.039109,
+      51.049109,
+      -114.0708683,
+      -114.0608683
+    ],
+    "countryCode": "ca"
+  },
+  "q=1327+9th+ave%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=brentview+baptist%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0842994,
+    "lng": -114.1231728,
+    "bbox": [
+      51.0840094,
+      51.0845706,
+      -114.1236617,
+      -114.1227682
+    ],
+    "countryCode": "ca"
+  },
+  "q=can%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0414312,
+    "lng": -114.0176929,
+    "bbox": [
+      51.0412586,
+      51.0416119,
+      -114.0178205,
+      -114.0175798
+    ],
+    "countryCode": "ca"
+  },
+  "q=siksikanation%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=illinois%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=inglewood+golf+course%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0303885,
+    "lng": -113.9989153,
+    "bbox": [
+      51.0303385,
+      51.0304385,
+      -113.9989653,
+      -113.9988653
+    ],
+    "countryCode": "ca"
+  },
+  "q=elbow+dr%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9955125,
+    "lng": -114.083279,
+    "bbox": [
+      50.9954201,
+      50.9956049,
+      -114.083279,
+      -114.083278
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40metrocalgary+sunnyside%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=calgar%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=australia%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=btcalgary%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=blackfoot%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9754512,
+    "lng": -114.0449473,
+    "bbox": [
+      50.9738794,
+      50.9767364,
+      -114.046372,
+      -114.0437043
+    ],
+    "countryCode": "ca"
+  },
+  "q=1807+macleod+tr+se%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=oilsands%2c+edmonton%2c+alberta&viewbox=-113.7138411%2c53.7162646%2c-113.2714783%2c53.3372558&bounded=1&countrycodes=ca": null,
+  "q=cowtown%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9156881,
+    "lng": -113.9617934,
+    "bbox": [
+      50.9155249,
+      50.915803,
+      -113.9619619,
+      -113.9616634
+    ],
+    "countryCode": "ca"
+  },
+  "q=mission+area%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=queensland+liquor+store%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=3751+21st+st+ne%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=sunalta%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0435137,
+    "lng": -114.0994739,
+    "bbox": [
+      51.0378213,
+      51.0480545,
+      -114.1146595,
+      -114.0946923
+    ],
+    "countryCode": "ca"
+  },
+  "q=25+ave%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0292222,
+    "lng": -114.0485405,
+    "bbox": [
+      51.0289644,
+      51.0294844,
+      -114.0495825,
+      -114.0473158
+    ],
+    "countryCode": "ca"
+  },
+  "q=2street%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=8th+ave+place+downtown%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0447016,
+    "lng": -114.056302,
+    "bbox": [
+      51.0444991,
+      51.0448662,
+      -114.0567515,
+      -114.0558546
+    ],
+    "countryCode": "ca"
+  },
+  "q=atlantis%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=tar+sands+capital%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=basement%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.1507,
+    "lng": -114.2166494,
+    "bbox": [
+      51.15065,
+      51.15075,
+      -114.2166994,
+      -114.2165994
+    ],
+    "countryCode": "ca"
+  },
+  "q=saddledome%2c+edmonton&viewbox=-113.7138411%2c53.7162646%2c-113.2714783%2c53.3372558&bounded=1&countrycodes=ca": null,
+  "q=rivers%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0155953,
+    "lng": -114.0546124,
+    "bbox": [
+      51.0155453,
+      51.0156453,
+      -114.0546624,
+      -114.0545624
+    ],
+    "countryCode": "ca"
+  },
+  "q=http%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=trans%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0633784,
+    "lng": -113.956688,
+    "bbox": [
+      51.0623204,
+      51.0657942,
+      -113.9581417,
+      -113.9552409
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+zoo%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0454337,
+    "lng": -114.0231839,
+    "bbox": [
+      51.0433985,
+      51.0474682,
+      -114.0362344,
+      -114.0196596
+    ],
+    "countryCode": "ca"
+  },
+  "q=university+of+calgary%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.075054,
+    "lng": -114.138805,
+    "bbox": [
+      51.0665854,
+      51.0833939,
+      -114.151945,
+      -114.1201822
+    ],
+    "countryCode": "ca"
+  },
+  "q=west%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0473578,
+    "lng": -114.0894459,
+    "bbox": [
+      51.0473078,
+      51.0474078,
+      -114.0894959,
+      -114.0893959
+    ],
+    "countryCode": "ca"
+  },
+  "q=cochrane%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0783953,
+    "lng": -114.1113534,
+    "bbox": [
+      51.0760629,
+      51.0807975,
+      -114.11611,
+      -114.1065621
+    ],
+    "countryCode": "ca"
+  },
+  "q=mac%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0437452,
+    "lng": -114.0836417,
+    "bbox": [
+      51.0436952,
+      51.0437952,
+      -114.0836917,
+      -114.0835917
+    ],
+    "countryCode": "ca"
+  },
+  "q=earlton+station%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=mcmahon+stadium%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0704233,
+    "lng": -114.1214899,
+    "bbox": [
+      51.0692331,
+      51.0716649,
+      -114.1231097,
+      -114.1197361
+    ],
+    "countryCode": "ca"
+  },
+  "q=cranston%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.8790822,
+    "lng": -113.975431,
+    "bbox": [
+      50.8537205,
+      50.9000642,
+      -113.998095,
+      -113.9619491
+    ],
+    "countryCode": "ca"
+  },
+  "q=rockies%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9752469,
+    "lng": -114.0799425,
+    "bbox": [
+      50.9740654,
+      50.9764079,
+      -114.082408,
+      -114.0775243
+    ],
+    "countryCode": "ca"
+  },
+  "q=glenbow%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0451291,
+    "lng": -114.0612569,
+    "bbox": [
+      51.0446762,
+      51.0453967,
+      -114.0616948,
+      -114.0608313
+    ],
+    "countryCode": "ca"
+  },
+  "q=centre+street+e%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9913713,
+    "lng": -114.03701,
+    "bbox": [
+      50.9910785,
+      50.9916005,
+      -114.0374033,
+      -114.036579
+    ],
+    "countryCode": "ca"
+  },
+  "q=yyc+bowness+pre%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=downtown+%23yyc+communities%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=sunyside%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=qc%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=centre+street+bridge%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0529915,
+    "lng": -114.0625481,
+    "bbox": [
+      51.0517745,
+      51.0539484,
+      -114.0627397,
+      -114.0623586
+    ],
+    "countryCode": "ca"
+  },
+  "q=bridgeland%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0538013,
+    "lng": -114.0443096,
+    "bbox": [
+      51.0423088,
+      51.0587924,
+      -114.0541993,
+      -114.0118754
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+area%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0703728,
+    "lng": -114.1159608,
+    "bbox": [
+      51.070143,
+      51.0706319,
+      -114.1164139,
+      -114.1155299
+    ],
+    "countryCode": "ca"
+  },
+  "q=victoria+park+train+station%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=24th+ave+sw%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9071884,
+    "lng": -114.1159244,
+    "bbox": [
+      50.9071384,
+      50.9072384,
+      -114.1159744,
+      -114.1158744
+    ],
+    "countryCode": "ca"
+  },
+  "q=east+%23inglewood%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=macle%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=the+by+6128+33rd+ave+nw%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=quarry+park%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9613917,
+    "lng": -114.0109842,
+    "bbox": [
+      50.9513917,
+      50.9713917,
+      -114.0209842,
+      -114.0009842
+    ],
+    "countryCode": "ca"
+  },
+  "q=roxboro%2frideau+park%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0285599,
+    "lng": -114.0685861,
+    "bbox": [
+      51.028083,
+      51.0285604,
+      -114.071525,
+      -114.065677
+    ],
+    "countryCode": "ca"
+  },
+  "q=stampede%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0386666,
+    "lng": -114.0582258,
+    "bbox": [
+      51.0336666,
+      51.0436666,
+      -114.0632258,
+      -114.0532258
+    ],
+    "countryCode": "ca"
+  },
+  "q=ctown%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=queensland+dr+se%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9392213,
+    "lng": -114.0183191,
+    "bbox": [
+      50.9323445,
+      50.9399714,
+      -114.0254131,
+      -114.0172003
+    ],
+    "countryCode": "ca"
+  },
+  "q=bragg+creek%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=mission%2c%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0317576,
+    "lng": -114.0667199,
+    "bbox": [
+      51.0284848,
+      51.0378336,
+      -114.0715157,
+      -114.0611154
+    ],
+    "countryCode": "ca"
+  },
+  "q=dt%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0456064,
+    "lng": -114.057541,
+    "bbox": [
+      50.842526,
+      51.2125013,
+      -114.3157587,
+      -113.8600018
+    ],
+    "countryCode": "ca"
+  },
+  "q=nimby+stands%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=7+ave+and+5+st+nw%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0456064,
+    "lng": -114.057541,
+    "bbox": [
+      50.842526,
+      51.2125013,
+      -114.3157587,
+      -113.8600018
+    ],
+    "countryCode": "ca"
+  },
+  "q=12ave%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=south%2feast+inglewood-%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=8th+street+sw%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0397472,
+    "lng": -114.081474,
+    "bbox": [
+      51.0396972,
+      51.0397972,
+      -114.081524,
+      -114.081424
+    ],
+    "countryCode": "ca"
+  },
+  "q=edison+cres+sw%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0194769,
+    "lng": -114.0700961,
+    "bbox": [
+      51.0188708,
+      51.0201012,
+      -114.0715478,
+      -114.0700912
+    ],
+    "countryCode": "ca"
+  },
+  "q=12th%2f11th+ave%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=connaught%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0410667,
+    "lng": -114.082943,
+    "bbox": [
+      51.0310667,
+      51.0510667,
+      -114.092943,
+      -114.072943
+    ],
+    "countryCode": "ca"
+  },
+  "q=southern+alberta%2c+edmonton&viewbox=-113.7138411%2c53.7162646%2c-113.2714783%2c53.3372558&bounded=1&countrycodes=ca": {
+    "lat": 53.5020377,
+    "lng": -113.4933482,
+    "bbox": [
+      53.5015289,
+      53.5024363,
+      -113.4944869,
+      -113.4921353
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+core%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.044109,
+    "lng": -114.0658683,
+    "bbox": [
+      51.039109,
+      51.049109,
+      -114.0708683,
+      -114.0608683
+    ],
+    "countryCode": "ca"
+  },
+  "q=4+st+sw%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0468372,
+    "lng": -114.0725609,
+    "bbox": [
+      51.0418372,
+      51.0518372,
+      -114.0775609,
+      -114.0675609
+    ],
+    "countryCode": "ca"
+  },
+  "q=17th+ave%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.037832,
+    "lng": -114.0816016,
+    "bbox": [
+      51.0370786,
+      51.0386626,
+      -114.0945747,
+      -114.06862
+    ],
+    "countryCode": "ca"
+  },
+  "q=monroe+county%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=east+http%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=emergency+operations+centre%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0577243,
+    "lng": -114.0607892,
+    "bbox": [
+      51.0576065,
+      51.0578683,
+      -114.0612835,
+      -114.0602948
+    ],
+    "countryCode": "ca"
+  },
+  "q=mission%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0317576,
+    "lng": -114.0667199,
+    "bbox": [
+      51.0284848,
+      51.0378336,
+      -114.0715157,
+      -114.0611154
+    ],
+    "countryCode": "ca"
+  },
+  "q=au+calgary%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0261348,
+    "lng": -114.1019068,
+    "bbox": [
+      51.0231829,
+      51.0304439,
+      -114.1179402,
+      -114.0947031
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgaryzoo%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=%40mikeysjukejoint%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=alibi+room%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=city+of%2c+edmonton%2c+alberta&viewbox=-113.7138411%2c53.7162646%2c-113.2714783%2c53.3372558&bounded=1&countrycodes=ca": {
+    "lat": 53.52682,
+    "lng": -113.5244937,
+    "bbox": [
+      53.5163893,
+      53.5307038,
+      -113.5323589,
+      -113.5151174
+    ],
+    "countryCode": "ca"
+  },
+  "q=mall%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9879741,
+    "lng": -114.0338162,
+    "bbox": [
+      50.9878513,
+      50.9882639,
+      -114.0341744,
+      -114.0333719
+    ],
+    "countryCode": "ca"
+  },
+  "q=macleod+by%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=southland+dr+se%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9671078,
+    "lng": -114.0350774,
+    "bbox": [
+      50.9668959,
+      50.9672775,
+      -114.0350823,
+      -114.034235
+    ],
+    "countryCode": "ca"
+  },
+  "q=vegreville%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=memorial%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0513881,
+    "lng": -114.0872679,
+    "bbox": [
+      51.0511875,
+      51.051601,
+      -114.0878966,
+      -114.0866394
+    ],
+    "countryCode": "ca"
+  },
+  "q=buffalo+run+golf+course%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=center+street%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.1230335,
+    "lng": -114.072034,
+    "bbox": [
+      51.122806,
+      51.1232841,
+      -114.0722349,
+      -114.0718297
+    ],
+    "countryCode": "ca"
+  },
+  "q=lindsay+park+foot+bridge%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=macleod+trail+and17th+ave%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=%40sarinahomes%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=4a+street%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0141152,
+    "lng": -114.0739966,
+    "bbox": [
+      51.0140369,
+      51.0142167,
+      -114.074014,
+      -114.073928
+    ],
+    "countryCode": "ca"
+  },
+  "q=parkade%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0676606,
+    "lng": -114.0441678,
+    "bbox": [
+      51.0673176,
+      51.06804,
+      -114.0444217,
+      -114.0439138
+    ],
+    "countryCode": "ca"
+  },
+  "q=little+buffalo+http%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=bowness+community+centre%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0844764,
+    "lng": -114.1819819,
+    "bbox": [
+      51.0843851,
+      51.0845662,
+      -114.1822566,
+      -114.1817073
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40calgaryzoo%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=mission%3a%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0317576,
+    "lng": -114.0667199,
+    "bbox": [
+      51.0284848,
+      51.0378336,
+      -114.0715157,
+      -114.0611154
+    ],
+    "countryCode": "ca"
+  },
+  "q=cbc+nw%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0650918,
+    "lng": -114.1449506,
+    "bbox": [
+      51.0650418,
+      51.0651418,
+      -114.1450006,
+      -114.1449006
+    ],
+    "countryCode": "ca"
+  },
+  "q=olympic+plaza%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0459295,
+    "lng": -114.0590933,
+    "bbox": [
+      51.0454661,
+      51.0463043,
+      -114.0603911,
+      -114.0582371
+    ],
+    "countryCode": "ca"
+  },
+  "q=n.+sask+r%2c+edmonton%2c+alberta&viewbox=-113.7138411%2c53.7162646%2c-113.2714783%2c53.3372558&bounded=1&countrycodes=ca": null,
+  "q=se%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0418425,
+    "lng": -114.0610322,
+    "bbox": [
+      51.0417925,
+      51.0418925,
+      -114.0610822,
+      -114.0609822
+    ],
+    "countryCode": "ca"
+  },
+  "q=turner+valley%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=kahanoff+building%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=memorial+drive+in%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=bridgeland%2c%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0538013,
+    "lng": -114.0443096,
+    "bbox": [
+      51.0423088,
+      51.0587924,
+      -114.0541993,
+      -114.0118754
+    ],
+    "countryCode": "ca"
+  },
+  "q=travelers%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0459689,
+    "lng": -114.0728396,
+    "bbox": [
+      51.0459189,
+      51.0460189,
+      -114.0728896,
+      -114.0727896
+    ],
+    "countryCode": "ca"
+  },
+  "q=bc%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.1316077,
+    "lng": -113.9973658,
+    "bbox": [
+      51.1316025,
+      51.1316089,
+      -114.0002918,
+      -113.9944399
+    ],
+    "countryCode": "ca"
+  },
+  "q=east+side%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0327109,
+    "lng": -114.1599477,
+    "bbox": [
+      51.0324681,
+      51.0329768,
+      -114.1606132,
+      -114.1592822
+    ],
+    "countryCode": "ca"
+  },
+  "q=rutland+park%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0200054,
+    "lng": -114.1368601,
+    "bbox": [
+      51.012458,
+      51.02553,
+      -114.1411706,
+      -114.1259068
+    ],
+    "countryCode": "ca"
+  },
+  "q=sw%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.044109,
+    "lng": -114.0658683,
+    "bbox": [
+      51.039109,
+      51.049109,
+      -114.0708683,
+      -114.0608683
+    ],
+    "countryCode": "ca"
+  },
+  "q=23rd+ave%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=memorial+drive%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0509107,
+    "lng": -114.0509984,
+    "bbox": [
+      51.0507967,
+      51.0510103,
+      -114.0516889,
+      -114.0503102
+    ],
+    "countryCode": "ca"
+  },
+  "q=the+saddledome%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=3348-24+ave%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0734337,
+    "lng": -114.1461135,
+    "bbox": [
+      51.0728442,
+      51.0740153,
+      -114.147673,
+      -114.144551
+    ],
+    "countryCode": "ca"
+  },
+  "q=blackfoot+truckstop%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=ucalgary+campuses%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=japan%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0658213,
+    "lng": -114.1020443,
+    "bbox": [
+      51.0657879,
+      51.065857,
+      -114.1020955,
+      -114.101994
+    ],
+    "countryCode": "ca"
+  },
+  "q=stonegate+pub%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=manchester+yard+25th+ave+se%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=bonnybrook+trail%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0098682,
+    "lng": -114.0207482,
+    "bbox": [
+      51.009709,
+      51.0100045,
+      -114.0211248,
+      -114.0203718
+    ],
+    "countryCode": "ca"
+  },
+  "q=lake+diefenbaker%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=highr%e2%80%a6%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=5822+bow+water+crescent%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=kelowna+pick-n%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=grocery+stores%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=9ave+x+13st+se%29%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=17+ave%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0380995,
+    "lng": -114.1347366,
+    "bbox": [
+      51.0380495,
+      51.0381495,
+      -114.1347866,
+      -114.1346866
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40calgarystampede+park%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=calgary+downtown%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0453239,
+    "lng": -114.0651646,
+    "bbox": [
+      51.0451561,
+      51.0455227,
+      -114.0653911,
+      -114.0649355
+    ],
+    "countryCode": "ca"
+  },
+  "q=kananaskis%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.989713,
+    "lng": -114.091786,
+    "bbox": [
+      50.9877705,
+      50.9897189,
+      -114.0930806,
+      -114.0885463
+    ],
+    "countryCode": "ca"
+  },
+  "q=redwoodmeadow%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=linden%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9910093,
+    "lng": -114.1259069,
+    "bbox": [
+      50.9910071,
+      50.9945919,
+      -114.1318421,
+      -114.1180269
+    ],
+    "countryCode": "ca"
+  },
+  "q=dc%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.076266,
+    "lng": -114.13336,
+    "bbox": [
+      51.0761329,
+      51.0763796,
+      -114.1334409,
+      -114.1332505
+    ],
+    "countryCode": "ca"
+  },
+  "q=millenium+park%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=downtownyyc%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=east+elbow+park+sw+calgary%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9321324,
+    "lng": -114.0833996,
+    "bbox": [
+      50.9320824,
+      50.9321824,
+      -114.0834496,
+      -114.0833496
+    ],
+    "countryCode": "ca"
+  },
+  "q=courthouse%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0471964,
+    "lng": -114.073225,
+    "bbox": [
+      51.0470604,
+      51.0473225,
+      -114.0736115,
+      -114.0728384
+    ],
+    "countryCode": "ca"
+  },
+  "q=b%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.1333763,
+    "lng": -114.2390937,
+    "bbox": [
+      51.1328447,
+      51.1339583,
+      -114.2396716,
+      -114.2378315
+    ],
+    "countryCode": "ca"
+  },
+  "q=apartment%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.8964325,
+    "lng": -114.0703809,
+    "bbox": [
+      50.8960517,
+      50.8967783,
+      -114.0705668,
+      -114.0697227
+    ],
+    "countryCode": "ca"
+  },
+  "q=3rd+street+location%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=mission+safeway+lot%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=sunterramarket%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=mission+safeway%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=saddledome%27s%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0382644,
+    "lng": -114.0527585,
+    "bbox": [
+      51.0382428,
+      51.0382871,
+      -114.053692,
+      -114.0518249
+    ],
+    "countryCode": "ca"
+  },
+  "q=bridgeland+sda+church%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=%40useralgary%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=calgs%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=2nd+street+sw%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=yyc+skyline%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0983389,
+    "lng": -114.0499282,
+    "bbox": [
+      51.0982889,
+      51.0983889,
+      -114.0499782,
+      -114.0498782
+    ],
+    "countryCode": "ca"
+  },
+  "q=riverdale+http%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=medicine+hat%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=mission-cliff+bungalow%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.032706,
+    "lng": -114.0700169,
+    "bbox": [
+      51.0325801,
+      51.0328319,
+      -114.0702874,
+      -114.0697464
+    ],
+    "countryCode": "ca"
+  },
+  "q=2nd+ave+sw%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=ship+%26amp%3b+anchor+pub%29%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=17th+a%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.037832,
+    "lng": -114.0816016,
+    "bbox": [
+      51.0370786,
+      51.0386626,
+      -114.0945747,
+      -114.06862
+    ],
+    "countryCode": "ca"
+  },
+  "q=south+dakota%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=calgary+drop-in+centre%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=orange+lofts%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0449697,
+    "lng": -114.0512582,
+    "bbox": [
+      51.0447562,
+      51.0450911,
+      -114.0515669,
+      -114.0509486
+    ],
+    "countryCode": "ca"
+  },
+  "q=roxboro%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0271497,
+    "lng": -114.0686909,
+    "bbox": [
+      51.023264,
+      51.029122,
+      -114.0715157,
+      -114.0637332
+    ],
+    "countryCode": "ca"
+  },
+  "q=.%40nenshi+cliff+bungalow+mission+ca%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=27+ave+and+erlton%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=elbow+drive%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.953689,
+    "lng": -114.0845968,
+    "bbox": [
+      50.9531043,
+      50.9542755,
+      -114.0846976,
+      -114.0844858
+    ],
+    "countryCode": "ca"
+  },
+  "q=bonavista+cares%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=minnewanka%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=b%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.1333763,
+    "lng": -114.2390937,
+    "bbox": [
+      51.1328447,
+      51.1339583,
+      -114.2396716,
+      -114.2378315
+    ],
+    "countryCode": "ca"
+  },
+  "q=east+village%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0464963,
+    "lng": -114.0506433,
+    "bbox": [
+      51.0431718,
+      51.0510091,
+      -114.0578391,
+      -114.0406649
+    ],
+    "countryCode": "ca"
+  },
+  "q=prince%e2%80%99s+island+park%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0551846,
+    "lng": -114.0706486,
+    "bbox": [
+      51.0535201,
+      51.0567739,
+      -114.0777739,
+      -114.0643517
+    ],
+    "countryCode": "ca"
+  },
+  "q=scotsman+hill%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0365004,
+    "lng": -114.0476171,
+    "bbox": [
+      51.0364504,
+      51.0365504,
+      -114.0476671,
+      -114.0475671
+    ],
+    "countryCode": "ca"
+  },
+  "q=china+town%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=25+ave+s%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0753898,
+    "lng": -114.0111343,
+    "bbox": [
+      51.0753398,
+      51.0754398,
+      -114.0111843,
+      -114.0110843
+    ],
+    "countryCode": "ca"
+  },
+  "q=rose+kohn+arena%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9805285,
+    "lng": -114.0749331,
+    "bbox": [
+      50.9804785,
+      50.9805785,
+      -114.0749831,
+      -114.0748831
+    ],
+    "countryCode": "ca"
+  },
+  "q=sunnyside%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0578696,
+    "lng": -114.0787405,
+    "bbox": [
+      51.0504894,
+      51.0623502,
+      -114.0859902,
+      -114.0624082
+    ],
+    "countryCode": "ca"
+  },
+  "q=peace+bridge%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0539136,
+    "lng": -114.0789104,
+    "bbox": [
+      51.0534898,
+      51.0543372,
+      -114.0795267,
+      -114.0782939
+    ],
+    "countryCode": "ca"
+  },
+  "q=4318+4a+st+sw%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0155592,
+    "lng": -114.0733208,
+    "bbox": [
+      51.0155092,
+      51.0156092,
+      -114.0733708,
+      -114.0732708
+    ],
+    "countryCode": "ca"
+  },
+  "q=braggcreek%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=bragg%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=nw+calgary%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.075054,
+    "lng": -114.138805,
+    "bbox": [
+      51.0665854,
+      51.0833939,
+      -114.151945,
+      -114.1201822
+    ],
+    "countryCode": "ca"
+  },
+  "q=45+new+st+s%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=phnom+penh%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=elbow+river%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9823945,
+    "lng": -114.1147754,
+    "bbox": [
+      50.9813694,
+      51.0000382,
+      -114.1437342,
+      -114.0973281
+    ],
+    "countryCode": "ca"
+  },
+  "q=vicparkyyc%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=deep+se+calgary%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0389129,
+    "lng": -113.9917756,
+    "bbox": [
+      51.038797,
+      51.0390287,
+      -113.992196,
+      -113.9913552
+    ],
+    "countryCode": "ca"
+  },
+  "q=6+street+sw%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0467885,
+    "lng": -114.0750235,
+    "bbox": [
+      51.0417885,
+      51.0517885,
+      -114.0800235,
+      -114.0700235
+    ],
+    "countryCode": "ca"
+  },
+  "q=elbow+park+support+ctr%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=calgary+%23chinatown%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0513016,
+    "lng": -114.0655153,
+    "bbox": [
+      51.050941,
+      51.0516492,
+      -114.0657905,
+      -114.0652342
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40glenbowmuseum%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=235+8a+st+ne%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0923837,
+    "lng": -114.0421378,
+    "bbox": [
+      51.0913885,
+      51.093379,
+      -114.0426381,
+      -114.0416376
+    ],
+    "countryCode": "ca"
+  },
+  "q=cliff+bungalow%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0344365,
+    "lng": -114.0738326,
+    "bbox": [
+      51.0285292,
+      51.0378336,
+      -114.0783028,
+      -114.0715143
+    ],
+    "countryCode": "ca"
+  },
+  "q=killarney%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0315785,
+    "lng": -114.1297493,
+    "bbox": [
+      51.0224494,
+      51.0378185,
+      -114.1412115,
+      -114.1222644
+    ],
+    "countryCode": "ca"
+  },
+  "q=central+memorial+hs%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0076854,
+    "lng": -114.1146228,
+    "bbox": [
+      51.0068634,
+      51.0086322,
+      -114.1176101,
+      -114.1119941
+    ],
+    "countryCode": "ca"
+  },
+  "q=mcleod+trail%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9239193,
+    "lng": -114.0709978,
+    "bbox": [
+      50.9238693,
+      50.9239693,
+      -114.0710478,
+      -114.0709478
+    ],
+    "countryCode": "ca"
+  },
+  "q=ground+zero%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=southern+ab%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0631292,
+    "lng": -114.0878809,
+    "bbox": [
+      51.0595997,
+      51.066743,
+      -114.0939769,
+      -114.0845327
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+downtown+location%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=%40userahanoff+building%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=chinook%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9970881,
+    "lng": -114.065761,
+    "bbox": [
+      50.9920881,
+      51.0020881,
+      -114.070761,
+      -114.060761
+    ],
+    "countryCode": "ca"
+  },
+  "q=se+%23yyc%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=millarville%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=calgarian%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=calgary+%23alberta%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0631292,
+    "lng": -114.0878809,
+    "bbox": [
+      51.0595997,
+      51.066743,
+      -114.0939769,
+      -114.0845327
+    ],
+    "countryCode": "ca"
+  },
+  "q=middle+east%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=safeway+grocery+store%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=cal%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0664125,
+    "lng": -114.1361133,
+    "bbox": [
+      51.0660172,
+      51.066768,
+      -114.1365527,
+      -114.1356919
+    ],
+    "countryCode": "ca"
+  },
+  "q=650-10th+st+sw%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=talisman+centre%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0344813,
+    "lng": -114.0633937,
+    "bbox": [
+      51.0336689,
+      51.0352461,
+      -114.0647453,
+      -114.06259
+    ],
+    "countryCode": "ca"
+  },
+  "q=space+station%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=lethbridge%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9954002,
+    "lng": -114.1394604,
+    "bbox": [
+      50.9945811,
+      50.995596,
+      -114.1396539,
+      -114.1385074
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+drop-in+and+rehab+centre%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=memorial+dr%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0491285,
+    "lng": -114.0410285,
+    "bbox": [
+      51.0441285,
+      51.0541285,
+      -114.0460285,
+      -114.0360285
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+dream+centre%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.013221,
+    "lng": -114.0650416,
+    "bbox": [
+      51.0127947,
+      51.0134492,
+      -114.0653596,
+      -114.0648106
+    ],
+    "countryCode": "ca"
+  },
+  "q=medicine+hat%2c+alta.%2c%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=4th+street+nw%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0670767,
+    "lng": -114.0728501,
+    "bbox": [
+      51.0670267,
+      51.0671267,
+      -114.0729001,
+      -114.0728001
+    ],
+    "countryCode": "ca"
+  },
+  "q=india%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9638394,
+    "lng": -114.084345,
+    "bbox": [
+      50.9637894,
+      50.9638894,
+      -114.084395,
+      -114.084295
+    ],
+    "countryCode": "ca"
+  },
+  "q=ucalgary%27s+4+campuses%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=lindsay+park%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0345765,
+    "lng": -114.0638029,
+    "bbox": [
+      51.0333289,
+      51.0358635,
+      -114.0673228,
+      -114.0599061
+    ],
+    "countryCode": "ca"
+  },
+  "q=centre+st%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0464027,
+    "lng": -114.061784,
+    "bbox": [
+      51.0414027,
+      51.0514027,
+      -114.066784,
+      -114.056784
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary%27s+downtown+core%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0507693,
+    "lng": -114.0623695,
+    "bbox": [
+      51.050741,
+      51.0507986,
+      -114.0625259,
+      -114.0622139
+    ],
+    "countryCode": "ca"
+  },
+  "q=ogden+road+and+17+street+s%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=bowmont+park+island%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=bonnybrook+bridge%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0131842,
+    "lng": -114.0133415,
+    "bbox": [
+      51.0123954,
+      51.0140177,
+      -114.0143436,
+      -114.0120413
+    ],
+    "countryCode": "ca"
+  },
+  "q=shawnessy%2fsometset%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=bedding%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=quebec%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0292504,
+    "lng": -114.0925915,
+    "bbox": [
+      51.0289193,
+      51.0294497,
+      -114.0939985,
+      -114.0912112
+    ],
+    "countryCode": "ca"
+  },
+  "q=dt%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0456064,
+    "lng": -114.057541,
+    "bbox": [
+      50.842526,
+      51.2125013,
+      -114.3157587,
+      -113.8600018
+    ],
+    "countryCode": "ca"
+  },
+  "q=lake+louise%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9450397,
+    "lng": -114.0504706,
+    "bbox": [
+      50.9450211,
+      50.9453519,
+      -114.0506738,
+      -114.0500797
+    ],
+    "countryCode": "ca"
+  },
+  "q=sifton+blvd%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0200625,
+    "lng": -114.0917122,
+    "bbox": [
+      51.0197439,
+      51.0201213,
+      -114.0921824,
+      -114.0913637
+    ],
+    "countryCode": "ca"
+  },
+  "q=albertas%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=u.+of+l%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0750862,
+    "lng": -114.1299504,
+    "bbox": [
+      51.0669671,
+      51.0830645,
+      -114.1410613,
+      -114.1179514
+    ],
+    "countryCode": "ca"
+  },
+  "q=siksika+nation%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0672574,
+    "lng": -114.0604824,
+    "bbox": [
+      51.0670951,
+      51.0674197,
+      -114.0606697,
+      -114.0602951
+    ],
+    "countryCode": "ca"
+  },
+  "q=downtown+calgary%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0453239,
+    "lng": -114.0651646,
+    "bbox": [
+      51.0451561,
+      51.0455227,
+      -114.0653911,
+      -114.0649355
+    ],
+    "countryCode": "ca"
+  },
+  "q=ab%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.1310072,
+    "lng": -114.0241697,
+    "bbox": [
+      51.1302835,
+      51.1315155,
+      -114.0246148,
+      -114.0241645
+    ],
+    "countryCode": "ca"
+  },
+  "q=61+ave+sw+north%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=%40userlobalnational%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=bonavista+rec+ctr%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=aarcs%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=saddle+ridge+area%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=yyc+saddledome%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=bonnybrook%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0198314,
+    "lng": -114.0248751,
+    "bbox": [
+      51.0078835,
+      51.0378324,
+      -114.0499716,
+      -114.0109999
+    ],
+    "countryCode": "ca"
+  },
+  "q=chinook+mall%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9979719,
+    "lng": -114.0735897,
+    "bbox": [
+      50.99479,
+      51.0011682,
+      -114.0755517,
+      -114.0721643
+    ],
+    "countryCode": "ca"
+  },
+  "q=southland%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9634836,
+    "lng": -114.0765725,
+    "bbox": [
+      50.9584836,
+      50.9684836,
+      -114.0815725,
+      -114.0715725
+    ],
+    "countryCode": "ca"
+  },
+  "q=canadian+city+of%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=800+34th+ave+sw%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=gallery%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0413964,
+    "lng": -114.035092,
+    "bbox": [
+      51.0413464,
+      51.0414464,
+      -114.035142,
+      -114.035042
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+zoo%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0454337,
+    "lng": -114.0231839,
+    "bbox": [
+      51.0433985,
+      51.0474682,
+      -114.0362344,
+      -114.0196596
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+centre%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0219282,
+    "lng": -114.0649778,
+    "bbox": [
+      50.9870497,
+      51.0567997,
+      -114.1412115,
+      -114.0029113
+    ],
+    "countryCode": "ca"
+  },
+  "q=stephan+avenue%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=kootenay+national+parks%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=8+ave%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0458853,
+    "lng": -114.0612817,
+    "bbox": [
+      51.045557,
+      51.0463769,
+      -114.0618819,
+      -114.0606718
+    ],
+    "countryCode": "ca"
+  },
+  "q=roxboro+communities%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=edworthy+bridge%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0643926,
+    "lng": -114.1527073,
+    "bbox": [
+      51.0642392,
+      51.0645355,
+      -114.1529034,
+      -114.1525039
+    ],
+    "countryCode": "ca"
+  },
+  "q=jasper%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=medicine+hat+region%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=south+line%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9279351,
+    "lng": -114.0730027,
+    "bbox": [
+      50.9269985,
+      50.9288733,
+      -114.0734906,
+      -114.0725179
+    ],
+    "countryCode": "ca"
+  },
+  "q=bow+river%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0850019,
+    "lng": -114.1759192,
+    "bbox": [
+      51.0803475,
+      51.0899286,
+      -114.1869177,
+      -114.1686955
+    ],
+    "countryCode": "ca"
+  },
+  "q=sunny+side%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=sunnyside+7ave+and+5th+st+nw%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=tsuu+t%27ina+land%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=poppyplaza%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=ogden+road%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9936282,
+    "lng": -114.0039544,
+    "bbox": [
+      50.9910592,
+      50.9961054,
+      -114.0063447,
+      -114.0017068
+    ],
+    "countryCode": "ca"
+  },
+  "q=southern%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0631292,
+    "lng": -114.0878809,
+    "bbox": [
+      51.0595997,
+      51.066743,
+      -114.0939769,
+      -114.0845327
+    ],
+    "countryCode": "ca"
+  },
+  "q=original+alley%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=dry%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9820233,
+    "lng": -114.0736395,
+    "bbox": [
+      50.9805371,
+      50.9831876,
+      -114.0760617,
+      -114.071805
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+court+house%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=kelowna%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9918421,
+    "lng": -114.0913826,
+    "bbox": [
+      50.9918284,
+      50.9918436,
+      -114.0923772,
+      -114.0903863
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary%2c%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.075054,
+    "lng": -114.138805,
+    "bbox": [
+      51.0665854,
+      51.0833939,
+      -114.151945,
+      -114.1201822
+    ],
+    "countryCode": "ca"
+  },
+  "q=9th+ave+se%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=elbowpark%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=3a+st%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0878014,
+    "lng": -114.0535065,
+    "bbox": [
+      51.0868583,
+      51.0887443,
+      -114.053519,
+      -114.0534852
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40userortcalgary%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=mcleod%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0407796,
+    "lng": -114.0348186,
+    "bbox": [
+      51.0403036,
+      51.0412568,
+      -114.0352833,
+      -114.034355
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40userivercafeyyc%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=okotoks+overpass%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=calgary+north+veterinary+hospital%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=riverdale+community%2c+edmonton%2c+alberta&viewbox=-113.7138411%2c53.7162646%2c-113.2714783%2c53.3372558&bounded=1&countrycodes=ca": {
+    "lat": 53.5417838,
+    "lng": -113.4723237,
+    "bbox": [
+      53.5416844,
+      53.5418649,
+      -113.4725571,
+      -113.472116
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40notablecalgary%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=highwood+river%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=carburn+park%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9758005,
+    "lng": -114.0313997,
+    "bbox": [
+      50.970818,
+      50.9809471,
+      -114.0360216,
+      -114.0249986
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary+communities%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=civic+centre+parkade%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=alyth+across%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=discoveryridge%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=downtown+campus%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0464054,
+    "lng": -114.0821448,
+    "bbox": [
+      51.0461701,
+      51.0465586,
+      -114.0829143,
+      -114.0813818
+    ],
+    "countryCode": "ca"
+  },
+  "q=bc%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.1316077,
+    "lng": -113.9973658,
+    "bbox": [
+      51.1316025,
+      51.1316089,
+      -114.0002918,
+      -113.9944399
+    ],
+    "countryCode": "ca"
+  },
+  "q=biltmorecabaret%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=cambodia%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=bankers+hall%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0452414,
+    "lng": -114.0691107,
+    "bbox": [
+      51.0448623,
+      51.0456431,
+      -114.0699229,
+      -114.0682948
+    ],
+    "countryCode": "ca"
+  },
+  "q=harvest+hills%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.1481976,
+    "lng": -114.0537778,
+    "bbox": [
+      51.141093,
+      51.1542676,
+      -114.0692237,
+      -114.0397757
+    ],
+    "countryCode": "ca"
+  },
+  "q=dt+areas%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=morler+areas%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=eden+valley%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=yyc+basement%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=downtown+calgary%2c+edmonton&viewbox=-113.7138411%2c53.7162646%2c-113.2714783%2c53.3372558&bounded=1&countrycodes=ca": null,
+  "q=146+ave%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.922125,
+    "lng": -114.0095352,
+    "bbox": [
+      50.9218039,
+      50.9224383,
+      -114.0102599,
+      -114.0088071
+    ],
+    "countryCode": "ca"
+  },
+  "q=ranchmans%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=%40calgaryzoo+island%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=elbow+river%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9823945,
+    "lng": -114.1147754,
+    "bbox": [
+      50.9813694,
+      51.0000382,
+      -114.1437342,
+      -114.0973281
+    ],
+    "countryCode": "ca"
+  },
+  "q=11th+street+se%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=2108b+33+ave+sw%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.024163,
+    "lng": -114.1197567,
+    "bbox": [
+      51.0241268,
+      51.0241992,
+      -114.1198983,
+      -114.1196152
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40userastvillageyyc%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=fish+creek+park%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.9096077,
+    "lng": -114.0263777,
+    "bbox": [
+      50.8776044,
+      50.9416049,
+      -114.1411921,
+      -113.9884524
+    ],
+    "countryCode": "ca"
+  },
+  "q=mcmahonstadium%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=foothills+town%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=golf+course%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0232626,
+    "lng": -114.1215507,
+    "bbox": [
+      51.0220817,
+      51.0243788,
+      -114.1243546,
+      -114.1183217
+    ],
+    "countryCode": "ca"
+  },
+  "q=dt+offices%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=calgary+tower%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0442999,
+    "lng": -114.0631347,
+    "bbox": [
+      51.0441289,
+      51.0444767,
+      -114.0634084,
+      -114.0628604
+    ],
+    "countryCode": "ca"
+  },
+  "q=didsbury%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=kananaskis%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.989713,
+    "lng": -114.091786,
+    "bbox": [
+      50.9877705,
+      50.9897189,
+      -114.0930806,
+      -114.0885463
+    ],
+    "countryCode": "ca"
+  },
+  "q=colborne%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0342991,
+    "lng": -114.0904847,
+    "bbox": [
+      51.0342111,
+      51.0344023,
+      -114.0910377,
+      -114.0899341
+    ],
+    "countryCode": "ca"
+  },
+  "q=%40usernglewoodyyc%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=grocery%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0524967,
+    "lng": -113.9577721,
+    "bbox": [
+      51.0524467,
+      51.0525467,
+      -113.9578221,
+      -113.9577221
+    ],
+    "countryCode": "ca"
+  },
+  "q=downtown+area%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=army+%26+navy%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0463118,
+    "lng": -114.0635729,
+    "bbox": [
+      51.0462262,
+      51.0464237,
+      -114.0636856,
+      -114.063458
+    ],
+    "countryCode": "ca"
+  },
+  "q=erlton+ave+sw%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0289662,
+    "lng": -114.0605372,
+    "bbox": [
+      51.0287576,
+      51.0291182,
+      -114.0611745,
+      -114.0598967
+    ],
+    "countryCode": "ca"
+  },
+  "q=stanley+park+pool+%26+park%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=eau+clare+market%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=red+deer%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 50.8915468,
+    "lng": -114.1572626,
+    "bbox": [
+      50.8911914,
+      50.891828,
+      -114.1575001,
+      -114.1570662
+    ],
+    "countryCode": "ca"
+  },
+  "q=langevin+bridge%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.049971,
+    "lng": -114.052276,
+    "bbox": [
+      51.0494376,
+      51.0504067,
+      -114.0528073,
+      -114.0518298
+    ],
+    "countryCode": "ca"
+  },
+  "q=denver%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=sheep+river+area%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=bowness+road%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0616079,
+    "lng": -114.1449635,
+    "bbox": [
+      51.0600407,
+      51.0631712,
+      -114.1487271,
+      -114.1412013
+    ],
+    "countryCode": "ca"
+  },
+  "q=epcor+centre%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0449628,
+    "lng": -114.0594915,
+    "bbox": [
+      51.0445827,
+      51.045336,
+      -114.0604662,
+      -114.0584488
+    ],
+    "countryCode": "ca"
+  },
+  "q=alberta%27s%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0746658,
+    "lng": -114.1480515,
+    "bbox": [
+      51.0728301,
+      51.0766109,
+      -114.1511696,
+      -114.1447307
+    ],
+    "countryCode": "ca"
+  },
+  "q=3111+17+ave+se%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0374522,
+    "lng": -113.9902863,
+    "bbox": [
+      51.0374022,
+      51.0375022,
+      -113.9903363,
+      -113.9902363
+    ],
+    "countryCode": "ca"
+  },
+  "q=stampede+stadium%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0337422,
+    "lng": -114.0552256,
+    "bbox": [
+      51.0328065,
+      51.0345866,
+      -114.056002,
+      -114.0543563
+    ],
+    "countryCode": "ca"
+  },
+  "q=the+downtown+core%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0478593,
+    "lng": -114.0619603,
+    "bbox": [
+      51.0475174,
+      51.0482003,
+      -114.0626244,
+      -114.0613171
+    ],
+    "countryCode": "ca"
+  },
+  "q=25th+street%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=comfort+inn%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0700202,
+    "lng": -114.1158702,
+    "bbox": [
+      51.0698423,
+      51.0702395,
+      -114.1162913,
+      -114.1153755
+    ],
+    "countryCode": "ca"
+  },
+  "q=8ave%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=local+school%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=4804+edmonton+trail+ne%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0950177,
+    "lng": -114.0529461,
+    "bbox": [
+      51.0947804,
+      51.0952739,
+      -114.0532712,
+      -114.0526059
+    ],
+    "countryCode": "ca"
+  },
+  "q=south%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.0773915,
+    "lng": -114.0035548,
+    "bbox": [
+      51.0771434,
+      51.0776965,
+      -114.0043342,
+      -114.0026333
+    ],
+    "countryCode": "ca"
+  },
+  "q=calgary%2c+ab%2c+calgary&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": {
+    "lat": 51.075054,
+    "lng": -114.138805,
+    "bbox": [
+      51.0665854,
+      51.0833939,
+      -114.151945,
+      -114.1201822
+    ],
+    "countryCode": "ca"
+  },
+  "q=blackfoot+rez%2c+calgary%2c+alberta&viewbox=-114.3157587%2c51.2125013%2c-113.8600018%2c50.842526&bounded=1&countrycodes=ca": null,
+  "q=siska%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=okotoks+costco%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=downtown+area%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=%40metrocalgary+sunnyside%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=btcalgary%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=oilsands%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 56.7127711,
+    "lng": -111.3455194,
+    "bbox": [
+      56.7124956,
+      56.7129929,
+      -111.3459358,
+      -111.3450946
+    ],
+    "countryCode": "ca"
+  },
+  "q=mission+area%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.5938525,
+    "lng": -113.5187237,
+    "bbox": [
+      53.5937731,
+      53.5939516,
+      -113.5189719,
+      -113.5184762
+    ],
+    "countryCode": "ca"
+  },
+  "q=yyc+bowness+pre%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=monroe+county%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=calgaryzoo%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=macleod+trail+and17th+ave%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=n.+sask+r%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=memorial+drive+in%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=ucalgary+campuses%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=highr%e2%80%a6%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=redwoodmeadow%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=downtownyyc%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=millarville%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 50.7581452,
+    "lng": -114.3253775,
+    "bbox": [
+      50.7381452,
+      50.7781452,
+      -114.3453775,
+      -114.3053775
+    ],
+    "countryCode": "ca"
+  },
+  "q=space+station%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=calgary+drop-in+and+rehab+centre%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=calgary+communities%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=civic+centre+parkade%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=yyc+basement%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null,
+  "q=foothills+town%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 53.398654,
+    "lng": -117.5909494,
+    "bbox": [
+      53.398604,
+      53.398704,
+      -117.5909994,
+      -117.5908994
+    ],
+    "countryCode": "ca"
+  },
+  "q=didsbury%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": {
+    "lat": 51.6567661,
+    "lng": -114.1375682,
+    "bbox": [
+      51.6350739,
+      51.6784606,
+      -114.1789231,
+      -114.1078685
+    ],
+    "countryCode": "ca"
+  },
+  "q=blackfoot+rez%2c+alberta&viewbox=-120.0013835%2c60.0004699%2c-110.0047639%2c48.996665&bounded=1&countrycodes=ca": null
+}
