@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Loader2, Upload } from "lucide-react";
+import { Clock, Loader2, Upload } from "lucide-react";
 import { toast } from "sonner";
 
 // How often to check on the pipeline while it processes the CSV
@@ -160,19 +160,29 @@ export function UploadCsvButton({ onUploaded }: UploadCsvButtonProps) {
           if (file) upload(file);
         }}
       />
-      <button
-        onClick={() => inputRef.current?.click()}
-        disabled={isBusy}
-        title={stageLabel(stage)}
-        className="flex max-w-[260px] items-center gap-2 rounded-full bg-white dark:bg-gray-800 px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-200 shadow-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors disabled:cursor-wait"
-      >
-        {isBusy ? (
-          <Loader2 className="h-4 w-4 flex-shrink-0 animate-spin" aria-hidden="true" />
-        ) : (
-          <Upload className="h-4 w-4 flex-shrink-0" aria-hidden="true" />
+      <div className="relative">
+        <button
+          onClick={() => inputRef.current?.click()}
+          disabled={isBusy}
+          title={stageLabel(stage)}
+          className="flex max-w-[260px] items-center gap-2 rounded-full bg-white dark:bg-gray-800 px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-200 shadow-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors disabled:cursor-wait"
+        >
+          {isBusy ? (
+            <Loader2 className="h-4 w-4 flex-shrink-0 animate-spin" aria-hidden="true" />
+          ) : (
+            <Upload className="h-4 w-4 flex-shrink-0" aria-hidden="true" />
+          )}
+          <span className="truncate">{stageLabel(stage)}</span>
+        </button>
+
+        {/* Hangs below the button so the top bar doesn't shift */}
+        {isBusy && (
+          <div className="absolute right-0 top-full mt-2 flex items-center gap-1.5 whitespace-nowrap rounded-full bg-white dark:bg-gray-800 px-3 py-1 text-xs text-gray-600 dark:text-gray-300 shadow-lg">
+            <Clock className="h-3.5 w-3.5 flex-shrink-0" aria-hidden="true" />
+            Processing a CSV takes a few minutes - keep this tab open
+          </div>
         )}
-        <span className="truncate">{stageLabel(stage)}</span>
-      </button>
+      </div>
     </>
   );
 }
