@@ -13,6 +13,9 @@ interface TweetPinLayerProps {
 
 const PIN_COLOR = "#e11d48";
 const PIN_SIZE = 32;
+// The pin is a square turned 45°, so its point sits half a diagonal below its
+// centre (not at its bottom edge) - anchoring there puts the point on the place
+const PIN_TIP_Y = PIN_SIZE / 2 + PIN_SIZE / Math.SQRT2;
 // Pins closer than this many screen pixels merge into a cluster
 const CLUSTER_RADIUS_PX = 60;
 // Leaflet's tile size - Supercluster measures its radius against this, and its
@@ -181,7 +184,7 @@ export function TweetPinLayer({ pins, onPinClick }: TweetPinLayerProps) {
               className: "tweet-pin",
               html: pinHtml(pin.tweets.length),
               iconSize: [PIN_SIZE, PIN_SIZE],
-              iconAnchor: [PIN_SIZE / 2, PIN_SIZE],
+              iconAnchor: [PIN_SIZE / 2, PIN_TIP_Y],
             }),
             title: pin.place,
             riseOnHover: true,

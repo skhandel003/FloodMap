@@ -13,6 +13,8 @@ const USER_AGENT = "FloodMap-hackathon/0.1";
 const MIN_INTERVAL_MS = 1100;
 // Give up on a search that hangs, so a background run can't stall
 const TIMEOUT_MS = 10_000;
+// How many of Nominatim's matches to choose from (see searchPlace)
+const CANDIDATES = 5;
 
 export interface Coordinates {
   lat: number;
@@ -46,6 +48,8 @@ interface NominatimResult {
   /** [south, north, west, east] */
   boundingbox: [string, string, string, string];
   address?: { country_code?: string };
+  /** How prominent the place is, 0 to 1 */
+  importance?: number;
 }
 
 let lastRequestAt = 0;
@@ -85,6 +89,10 @@ export function searchKey(search: PlaceSearch): string {
 /**
  * Runs a search and returns the best match, or null when nothing matches.
  * Calls are spaced out automatically to respect the one-per-second limit.
+ *
+ * Nominatim ranks mostly by how well the name matches, which can put a dirt road
+ * called "Siksika" above the Siksiká Nation reserve - so this takes the most
+ * important of its top matches, and its first when they tie.
  */
 export async function searchPlace(search: PlaceSearch): Promise<Place | null> {
   const wait = lastRequestAt + MIN_INTERVAL_MS - Date.now();
@@ -94,7 +102,7 @@ export async function searchPlace(search: PlaceSearch): Promise<Place | null> {
   const params = new URLSearchParams({
     ...searchParams(search),
     format: "jsonv2",
-    limit: "1",
+    limit: String(CANDIDATES),
     addressdetails: "1",
   });
   const response = await fetch(`${NOMINATIM_URL}?${params}`, {
@@ -105,7 +113,14 @@ export async function searchPlace(search: PlaceSearch): Promise<Place | null> {
     throw new Error(`Nominatim returned ${response.status}`);
   }
 
-  const [result] = (await response.json()) as NominatimResult[];
+  const results = (await response.json()) as NominatimResult[];
+  const result = results.reduce<NominatimResult | undefined>(
+    (best, candidate) =>
+      !best || (candidate.importance ?? 0) > (best.importance ?? 0)
+        ? candidate
+        : best,
+    undefined,
+  );
   if (!result) return null;
 
   const [south, north, west, east] = result.boundingbox.map(Number);

@@ -12,7 +12,7 @@
  */
 
 import Papa from "papaparse";
-import type { Db } from "mongodb";
+import type { Collection, Db } from "mongodb";
 import type { FloodTweet, TweetLocation } from "../types/tweet";
 
 const COLLECTION = "FloodTweets";
@@ -226,6 +226,7 @@ export function parseTweetsCsv(text: string): ParsedTweets {
       locations: toLocations(items),
       score: Number(row.score),
       time,
+      geotagged: false,
     };
   });
 
@@ -251,10 +252,48 @@ export function parseTweetsCsv(text: string): ParsedTweets {
   };
 }
 
+function createIndexes(collection: Collection<FloodTweet>) {
+  return collection.createIndexes([
+    { key: { id: 1 }, unique: true },
+    { key: { text: 1 }, unique: true },
+    { key: { "locations.city": 1 } },
+    { key: { time: 1 } },
+  ]);
+}
+
 /**
- * Makes the FloodTweets collection hold exactly these tweets, without coordinates
- * until geotagging fills them in. Tweets no longer there, or whose text changed,
- * are removed first, so neither the saves nor the unique text index can clash.
+ * Adds tweets to the FloodTweets collection, keeping what's already there -
+ * without coordinates until geotagging fills them in. Tweets whose text is
+ * already in the collection are skipped (the unique index on text enforces it).
+ *
+ * Into an empty collection, ids stay the CSV line numbers; after that, new tweets
+ * are numbered on from the highest id already there, so ids never clash.
+ */
+export async function addTweets(db: Db, tweets: FloodTweet[]) {
+  const collection = db.collection<FloodTweet>(COLLECTION);
+  await createIndexes(collection);
+
+  const saved = await collection
+    .find({}, { projection: { _id: 0, id: 1, text: 1 } })
+    .toArray();
+  const savedTexts = new Set(saved.map((t) => t.text));
+  const newTweets = tweets.filter((t) => !savedTexts.has(t.text));
+
+  if (saved.length > 0) {
+    let nextId = saved.reduce((max, t) => Math.max(max, t.id), 0) + 1;
+    for (const tweet of newTweets) tweet.id = nextId++;
+  }
+  if (newTweets.length > 0) {
+    await collection.insertMany(newTweets, { ordered: false });
+  }
+  return { added: newTweets.length, alreadySaved: tweets.length - newTweets.length };
+}
+
+/**
+ * Makes the FloodTweets collection hold exactly these tweets (ids = CSV line
+ * numbers), without coordinates until geotagging fills them in - for
+ * `npm run import:tweets`. Tweets no longer there, or whose text changed, are
+ * removed first, so neither the saves nor the unique text index can clash.
  */
 export async function replaceTweets(db: Db, tweets: FloodTweet[]) {
   const collection = db.collection<FloodTweet>(COLLECTION);
@@ -268,12 +307,7 @@ export async function replaceTweets(db: Db, tweets: FloodTweet[]) {
     .map((t) => t.id);
   const removed = await collection.deleteMany({ id: { $in: staleIds } });
 
-  await collection.createIndexes([
-    { key: { id: 1 }, unique: true },
-    { key: { text: 1 }, unique: true },
-    { key: { "locations.city": 1 } },
-    { key: { time: 1 } },
-  ]);
+  await createIndexes(collection);
 
   if (tweets.length === 0) {
     return { inserted: 0, updated: 0, removed: removed.deletedCount };

@@ -18,7 +18,6 @@ import fs from "node:fs";
 import { MongoClient } from "mongodb";
 import { geotagCollection, releaseGeotagLock } from "../lib/geotag";
 import { parseTweetsCsv, replaceTweets } from "../lib/tweet-import";
-import { moveOldPlaceCache } from "./old-place-cache";
 
 try {
   process.loadEnvFile(".env.local");
@@ -92,7 +91,6 @@ async function main() {
       console.log("Skipped geotagging - run `npm run geotag` when ready");
       return;
     }
-    await moveOldPlaceCache(db);
     // Free the lock on Ctrl+C, so the next run can start straight away
     process.once("SIGINT", () => {
       releaseGeotagLock(db).finally(() => process.exit(130));

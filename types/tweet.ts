@@ -25,8 +25,10 @@ export interface TweetLocation {
  */
 export interface FloodTweet {
   /**
-   * Line in the processed CSV where the tweet starts (the header is line 1) - the
-   * first such line when the same text appears more than once
+   * Unique number. Tweets loaded into an empty collection (or by
+   * `npm run import:tweets`) use the line in the processed CSV where the tweet
+   * starts (the header is line 1); tweets uploaded after that are numbered on
+   * from the highest id already there.
    */
   id: number;
   /** Unique across the collection */
@@ -37,6 +39,11 @@ export interface FloodTweet {
   score: number;
   /** From the CSV's time column; null when the cell is empty */
   time: Date | null;
+  /**
+   * true once every location has been looked up (see lib/geotag.ts); tweets
+   * without it are geotagged in the background
+   */
+  geotagged?: boolean;
 }
 
 /**

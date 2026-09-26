@@ -40,7 +40,8 @@ function stageLabel(stage: Stage): string {
 
 /**
  * UploadCsvButton - Uploads a raw tweets CSV: the pipeline classifies it and
- * finds its locations, then the result replaces the tweets on the map
+ * finds its locations, then its new tweets are added to the map (tweets already
+ * there are skipped)
  *
  * While it works, a thin loading bar runs across the top of the screen and the
  * button shows the current stage. The pins appear as geotagging places them,
@@ -112,11 +113,18 @@ export function UploadCsvButton({ onUploaded }: UploadCsvButtonProps) {
       const result = await readJson(saved);
       if (!saved.ok) throw new Error(result.error ?? `Saving failed (HTTP ${saved.status})`);
 
-      toast.success(`Uploaded ${result.tweets} flood tweets`, {
-        description:
-          (result.repeats > 0 ? `${result.repeats} repeated tweets skipped. ` : "") +
-          "Pins appear on the map as their places are found.",
-      });
+      const skipped = [
+        result.alreadySaved > 0 && `${result.alreadySaved} already on the map`,
+        result.repeats > 0 && `${result.repeats} repeated in the file`,
+      ].filter(Boolean);
+      const skippedNote = skipped.length > 0 ? `Skipped ${skipped.join(" and ")}. ` : "";
+      if (result.added > 0) {
+        toast.success(`Added ${result.added} flood tweets`, {
+          description: `${skippedNote}Pins appear on the map as their places are found.`,
+        });
+      } else {
+        toast.info("No new tweets to add", { description: skippedNote });
+      }
       onUploaded();
     } catch (error) {
       console.error("CSV upload failed:", error);

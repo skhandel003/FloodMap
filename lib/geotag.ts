@@ -7,7 +7,9 @@
  * so new pins appear while the rest are still being looked up.
  *
  * It runs outside page requests - in the background from POST /api/geotag, or from
- * `npm run geotag` - so it never holds up the UI. A lock in the Jobs collection
+ * `npm run geotag` - so it never holds up the UI. It starts by itself whenever
+ * tweets are waiting for coordinates: after an upload, and whenever the map loads
+ * its pins (which also restarts a run that died). A lock in the Jobs collection
  * allows one run at a time, which keeps to Nominatim's one-per-second limit.
  *
  * Each location is placed from its own (province, city, close location) triple:
@@ -30,6 +32,11 @@ const LOCK_ID = "geotag";
 // A run renews its lock after every search, so it only runs out if the run dies
 const LOCK_MS = 2 * 60_000;
 const MAX_FAILURES_IN_A_ROW = 5;
+// After a run gives up on failing searches, wait this long before starting another
+const RETRY_AFTER_FAILURE_MS = 5 * 60_000;
+// How specific each level is - a location's pin only moves to a less specific
+// level once its searches are all done
+const PRECISION_RANK = { place: 3, city: 2, province: 1 } as const;
 
 /** A saved search - place is null when nothing was found */
 interface PlaceSearchDoc {
@@ -41,6 +48,8 @@ interface PlaceSearchDoc {
 interface JobDoc {
   _id: string;
   lockedUntil: Date;
+  /** Set when a run gave up on failing searches */
+  retryAfter?: Date;
 }
 
 /** Saved searches keyed by searchKey() */
@@ -164,15 +173,29 @@ function resolveLocation(
   return resolution;
 }
 
+const rank = (precision: TweetLocation["precision"] | undefined) =>
+  precision ? PRECISION_RANK[precision] : 0;
+
 /**
- * Sets a tweet's coordinates from the saved searches. Returns whether any of its
- * locations changed and the searches they still need.
+ * Sets a tweet's coordinates from the saved searches, and geotagged once all its
+ * locations are settled. Returns whether anything changed and the searches its
+ * locations still need.
+ *
+ * A location that's still being looked up only moves to a more specific level
+ * (so new tweets show up early and sharpen) - it keeps any pin it already has
+ * until its searches are done, so re-geotagging doesn't empty the map.
  */
 function applySavedSearches(tweet: FloodTweet, cache: PlaceCache) {
   let changed = false;
   const next: PlaceSearch[] = [];
   for (const location of tweet.locations) {
     const resolution = resolveLocation(location, cache);
+    if (resolution.next) next.push(resolution.next);
+
+    const isSettled = resolution.next === null;
+    if (!isSettled && rank(resolution.precision) <= rank(location.precision)) {
+      continue;
+    }
     const coordinates = resolution.place && {
       lat: resolution.place.lat,
       lng: resolution.place.lng,
@@ -186,7 +209,12 @@ function applySavedSearches(tweet: FloodTweet, cache: PlaceCache) {
       location.precision = resolution.precision;
       changed = true;
     }
-    if (resolution.next) next.push(resolution.next);
+  }
+
+  const geotagged = next.length === 0;
+  if (tweet.geotagged !== geotagged) {
+    tweet.geotagged = geotagged;
+    changed = true;
   }
   return { changed, next };
 }
@@ -205,7 +233,9 @@ async function saveLocations(
     tweets.map((tweet) => ({
       updateOne: {
         filter: { id: tweet.id, text: tweet.text },
-        update: { $set: { locations: tweet.locations } },
+        update: {
+          $set: { locations: tweet.locations, geotagged: tweet.geotagged },
+        },
       },
     })),
     { ordered: false },
@@ -270,24 +300,34 @@ export async function releaseGeotagLock(db: Db) {
 }
 
 /**
- * Adds search results saved elsewhere (e.g. an old cache file), keeping any the
- * collection already has
+ * Whether a background run should start: some tweet isn't geotagged yet, no run
+ * is going, and the last run didn't just give up on failing searches
  */
-export async function addPlaceSearches(
-  db: Db,
-  results: [string, Place | null][],
-) {
-  if (results.length === 0) return;
-  await db.collection<PlaceSearchDoc>(PLACE_SEARCHES).bulkWrite(
-    results.map(([key, place]) => ({
-      updateOne: {
-        filter: { _id: key },
-        update: { $setOnInsert: { place, searchedAt: new Date() } },
-        upsert: true,
-      },
-    })),
-    { ordered: false },
-  );
+export async function shouldStartGeotag(db: Db): Promise<boolean> {
+  const now = new Date();
+  const job = await db.collection<JobDoc>(JOBS).findOne({ _id: LOCK_ID });
+  if (job && (job.lockedUntil > now || (job.retryAfter ?? now) > now)) {
+    return false;
+  }
+  const untagged = await db
+    .collection<FloodTweet>(TWEETS)
+    .findOne({ geotagged: { $ne: true } }, { projection: { _id: 1 } });
+  return untagged !== null;
+}
+
+/**
+ * Forgets every saved search, so all places are looked up again - e.g. after the
+ * search rules change. Tweets keep their pins until their new ones are found.
+ * Returns how many searches were forgotten.
+ */
+export async function clearPlaceCache(db: Db): Promise<number> {
+  const { deletedCount } = await db
+    .collection<PlaceSearchDoc>(PLACE_SEARCHES)
+    .deleteMany({});
+  await db
+    .collection<FloodTweet>(TWEETS)
+    .updateMany({}, { $set: { geotagged: false } });
+  return deletedCount;
 }
 
 /**
@@ -307,6 +347,11 @@ export async function geotagCollection(
   }
 
   let searches = 0;
+  // Counts as failed until it says otherwise, e.g. when the database errors
+  let outcome: GeotagResult = { status: "failed", searches };
+  const finish = (status: GeotagResult["status"]) =>
+    (outcome = { status, searches });
+
   try {
     const tweetsCollection = db.collection<FloodTweet>(TWEETS);
     const searchesCollection = db.collection<PlaceSearchDoc>(PLACE_SEARCHES);
@@ -345,7 +390,7 @@ export async function geotagCollection(
 
       if (pending.size === 0) {
         log(`Geotagging done - locations: ${describePlacement(tweets)}`);
-        return { status: "done", searches };
+        return finish("done");
       }
       log(
         `${pending.size} search(es) to run, about ${Math.ceil((pending.size * 1.1) / 60)} min ` +
@@ -360,7 +405,7 @@ export async function geotagCollection(
       for (const [i, [key, { search, tweets: waiting }]] of queue.entries()) {
         if (Date.now() - startedAt > timeLimitMs) {
           log(`Paused after ${searches} search(es) - the next run carries on`);
-          return { status: "paused", searches };
+          return finish("paused");
         }
         const progress = `  [${i + 1}/${queue.length}] ${describeSearch(search)}`;
 
@@ -372,7 +417,7 @@ export async function geotagCollection(
           log(`${progress}: ${error instanceof Error ? error.message : error}`);
           if (++failuresInARow >= MAX_FAILURES_IN_A_ROW) {
             log(`Stopped after ${MAX_FAILURES_IN_A_ROW} failed searches in a row`);
-            return { status: "failed", searches };
+            return finish("failed");
           }
           continue;
         }
@@ -401,9 +446,20 @@ export async function geotagCollection(
       }
 
       // Only searches that keep failing are left - stop rather than retry forever
-      if (ranThisRound === 0) return { status: "failed", searches };
+      if (ranThisRound === 0) return finish("failed");
     }
   } finally {
-    await releaseGeotagLock(db);
+    // Free the lock; after a failure, hold off new runs for a while
+    await jobs.updateOne(
+      { _id: LOCK_ID },
+      {
+        $set: {
+          lockedUntil: new Date(0),
+          ...(outcome.status === "failed" && {
+            retryAfter: new Date(Date.now() + RETRY_AFTER_FAILURE_MS),
+          }),
+        },
+      },
+    );
   }
 }

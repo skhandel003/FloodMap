@@ -84,7 +84,7 @@ export function PinTweetsPanel({ pin, onClose }: PinTweetsPanelProps) {
                   {tweet.time ? timeFormat.format(new Date(tweet.time)) : "Time unknown"}
                 </span>
                 <span>{scoreFormat.format(tweet.score)} relevant</span>
-                <span className="ml-auto">CSV line {tweet.id}</span>
+                <span className="ml-auto" title="Tweet number">#{tweet.id}</span>
               </div>
             </li>
           ))}

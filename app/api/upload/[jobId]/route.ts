@@ -1,7 +1,7 @@
 import { after, NextRequest, NextResponse } from "next/server";
 import { getDatabase } from "@/lib/mongodb";
 import { downloadResult, getJob } from "@/lib/pipeline";
-import { parseTweetsCsv, replaceTweets } from "@/lib/tweet-import";
+import { addTweets, parseTweetsCsv } from "@/lib/tweet-import";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -29,10 +29,10 @@ export async function GET(_request: NextRequest, context: Context) {
 
 /**
  * POST /api/upload/[jobId]
- * Once the job is done: downloads the processed CSV, replaces the tweets in the
- * database with it (repeated texts skipped), and starts placing them on the map
- * in the background. The CSV is only held in memory - nothing is kept, and the
- * pipeline deletes its copy once it's downloaded.
+ * Once the job is done: downloads the processed CSV, adds its tweets to the
+ * database (texts already there, or repeated in the file, are skipped) and starts
+ * placing the new ones on the map in the background. The CSV is only held in
+ * memory - nothing is kept, and the pipeline deletes its copy once downloaded.
  */
 export async function POST(request: NextRequest, context: Context) {
   const { jobId } = await context.params;
@@ -66,9 +66,10 @@ export async function POST(request: NextRequest, context: Context) {
     );
   }
 
+  let saved;
   try {
     const db = await getDatabase();
-    await replaceTweets(db, parsed.tweets);
+    saved = await addTweets(db, parsed.tweets);
   } catch (error) {
     console.error("Failed to save uploaded tweets:", error);
     return NextResponse.json(
@@ -78,17 +79,19 @@ export async function POST(request: NextRequest, context: Context) {
   }
 
   // Place the new tweets on the map in the background
-  after(async () => {
-    try {
-      await fetch(new URL("/api/geotag", request.url), { method: "POST" });
-    } catch (error) {
-      console.error("Failed to start geotagging:", error);
-    }
-  });
+  if (saved.added > 0) {
+    after(async () => {
+      try {
+        await fetch(new URL("/api/geotag", request.url), { method: "POST" });
+      } catch (error) {
+        console.error("Failed to start geotagging:", error);
+      }
+    });
+  }
 
   return NextResponse.json({
-    tweets: parsed.tweets.length,
+    added: saved.added,
+    alreadySaved: saved.alreadySaved,
     repeats: parsed.rowCount - parsed.tweets.length,
-    withLocation: parsed.tweets.filter((t) => t.locations.length > 0).length,
   });
 }
