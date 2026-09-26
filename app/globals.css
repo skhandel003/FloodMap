@@ -225,6 +225,20 @@
   animation-delay: 4s;
 }
 
+/* Thin loading bar - a short segment sliding across the top of the screen */
+@keyframes loading-bar {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(400%);
+  }
+}
+
+.animate-loading-bar {
+  animation: loading-bar 1.2s ease-in-out infinite;
+}
+
 /* Leaflet CSS import */
 @import "leaflet/dist/leaflet.css";
 @import "tw-animate-css";

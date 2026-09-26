@@ -41,7 +41,7 @@ export function MapMain() {
   const [selectedPin, setSelectedPin] = useState<MapPin | null>(null);
 
   // Tweet pins from the database
-  const pins = useTweetPins();
+  const { pins, refresh: refreshPins } = useTweetPins();
 
   // Context menu hook
   const {
@@ -123,7 +123,7 @@ export function MapMain() {
       />
 
       {/* Top Bar */}
-      <MapTopBar />
+      <MapTopBar onUploaded={refreshPins} />
 
       {/* Map Controls */}
       <MapControls />

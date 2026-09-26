@@ -28,11 +28,17 @@ function getClient(): Promise<MongoClient> {
 }
 
 /**
+ * The Floods database
+ */
+export async function getDatabase() {
+  const client = await getClient();
+  return client.db(process.env.MONGODB_DB ?? "Floods");
+}
+
+/**
  * The Floods.FloodTweets collection written by `npm run import:tweets`
  */
 export async function getFloodTweetsCollection() {
-  const client = await getClient();
-  return client
-    .db(process.env.MONGODB_DB ?? "Floods")
-    .collection<FloodTweet>("FloodTweets");
+  const db = await getDatabase();
+  return db.collection<FloodTweet>("FloodTweets");
 }

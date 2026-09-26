@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "import:tweets": "tsx scripts/import-tweets.ts"
+    "import:tweets": "tsx scripts/import-tweets.ts",
+    "geotag": "tsx scripts/geotag.ts"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",

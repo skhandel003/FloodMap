@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { toast } from "sonner";
 import type { MapPin } from "@/types/tweet";
 
@@ -16,10 +16,13 @@ const REFRESH_MS = 20_000;
  *   doesn't redraw the map
  * - Only the first failure is reported; a missed check just waits for the next one
  *
- * @returns Pins to draw; empty until loaded or if the database can't be reached
+ * @returns pins to draw (empty until loaded or if the database can't be reached),
+ *   and refresh() to check straight away, e.g. after an upload
  */
 export function useTweetPins() {
   const [pins, setPins] = useState<MapPin[]>([]);
+  const loadRef = useRef<() => void>(() => {});
+  const refresh = useCallback(() => loadRef.current(), []);
 
   useEffect(() => {
     let isMounted = true;
@@ -57,6 +60,7 @@ export function useTweetPins() {
       if (document.visibilityState === "visible") loadPins();
     };
 
+    loadRef.current = loadPins;
     loadPins();
     const timer = setInterval(loadIfVisible, REFRESH_MS);
     document.addEventListener("visibilitychange", loadIfVisible);
@@ -68,5 +72,5 @@ export function useTweetPins() {
     };
   }, []);
 
-  return pins;
+  return { pins, refresh };
 }

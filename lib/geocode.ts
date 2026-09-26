@@ -11,6 +11,8 @@ import type { TweetLocation } from "@/types/tweet";
 const NOMINATIM_URL = "https://nominatim.openstreetmap.org/search";
 const USER_AGENT = "FloodMap-hackathon/0.1";
 const MIN_INTERVAL_MS = 1100;
+// Give up on a search that hangs, so a background run can't stall
+const TIMEOUT_MS = 10_000;
 
 export interface Coordinates {
   lat: number;
@@ -97,6 +99,7 @@ export async function searchPlace(search: PlaceSearch): Promise<Place | null> {
   });
   const response = await fetch(`${NOMINATIM_URL}?${params}`, {
     headers: { "User-Agent": USER_AGENT },
+    signal: AbortSignal.timeout(TIMEOUT_MS),
   });
   if (!response.ok) {
     throw new Error(`Nominatim returned ${response.status}`);
