@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { X, MapPin, Clock } from "lucide-react";
 import { Drawer } from "vaul";
 import type { MapPin as TweetPin } from "@/types/tweet";
+import { PinSummary } from "./PinSummary";
 
 interface PinTweetsPanelProps {
   pin: TweetPin | null;
@@ -15,8 +16,16 @@ const timeFormat = new Intl.DateTimeFormat(undefined, {
   timeStyle: "short",
 });
 
+// Cuts off rather than rounds, so 0.99992 shows as 99.99% - never 100% unless it is
+const scoreFormat = new Intl.NumberFormat(undefined, {
+  style: "percent",
+  maximumFractionDigits: 2,
+  roundingMode: "trunc",
+});
+
 /**
- * PinTweetsPanel - Lists every tweet behind a map pin
+ * PinTweetsPanel - Lists every tweet behind a map pin, most relevant first, with a
+ * floating button that summarises them
  * Desktop: Side panel on the left
  * Mobile: Bottom drawer
  */
@@ -61,24 +70,27 @@ export function PinTweetsPanel({ pin, onClose }: PinTweetsPanelProps) {
         )}
       </div>
 
-      {/* Tweets */}
-      <ul className="flex-1 overflow-y-auto scrollbar-thin divide-y dark:divide-gray-800">
-        {pin.tweets.map((tweet) => (
-          <li key={tweet.id} className="px-6 py-4">
-            <p className="text-sm text-gray-800 dark:text-gray-200 whitespace-pre-line break-words">
-              {tweet.text}
-            </p>
-            <div className="mt-2 flex items-center gap-3 text-xs text-gray-500 dark:text-gray-400">
-              <span className="flex items-center gap-1">
-                <Clock className="h-3.5 w-3.5" aria-hidden="true" />
-                {tweet.time ? timeFormat.format(new Date(tweet.time)) : "Time unknown"}
-              </span>
-              <span>{Math.round(tweet.score * 100)}% relevant</span>
-              <span className="ml-auto">CSV line {tweet.id}</span>
-            </div>
-          </li>
-        ))}
-      </ul>
+      {/* Tweets (most relevant first), with the summary button floating over them */}
+      <div className="relative flex-1 min-h-0">
+        <ul className="h-full overflow-y-auto scrollbar-thin divide-y dark:divide-gray-800 pt-14">
+          {pin.tweets.map((tweet) => (
+            <li key={tweet.id} className="px-6 py-4">
+              <p className="text-sm text-gray-800 dark:text-gray-200 whitespace-pre-line break-words">
+                {tweet.text}
+              </p>
+              <div className="mt-2 flex items-center gap-3 text-xs text-gray-500 dark:text-gray-400">
+                <span className="flex items-center gap-1">
+                  <Clock className="h-3.5 w-3.5" aria-hidden="true" />
+                  {tweet.time ? timeFormat.format(new Date(tweet.time)) : "Time unknown"}
+                </span>
+                <span>{scoreFormat.format(tweet.score)} relevant</span>
+                <span className="ml-auto">CSV line {tweet.id}</span>
+              </div>
+            </li>
+          ))}
+        </ul>
+        <PinSummary key={pin.id} pinId={pin.id} tweetCount={count} />
+      </div>
     </div>
   );
 

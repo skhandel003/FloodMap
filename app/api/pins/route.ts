@@ -9,7 +9,7 @@ export const dynamic = "force-dynamic";
 /**
  * GET /api/pins
  * Tweets grouped into map pins - tweets whose locations resolved to exactly the
- * same coordinates share a pin
+ * same coordinates share a pin. Each pin lists its most relevant tweets first.
  */
 export async function GET() {
   try {
@@ -47,6 +47,11 @@ export async function GET() {
         }
         pins.set(key, pin);
       }
+    }
+
+    // Highest score first, ties in CSV order - the same order /api/summarize uses
+    for (const pin of pins.values()) {
+      pin.tweets.sort((a, b) => b.score - a.score || a.id - b.id);
     }
 
     return NextResponse.json([...pins.values()]);

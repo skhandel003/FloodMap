@@ -15,6 +15,9 @@ const PIN_COLOR = "#e11d48";
 const PIN_SIZE = 32;
 // Pins closer than this many screen pixels merge into a cluster
 const CLUSTER_RADIUS_PX = 60;
+// Leaflet's tile size - Supercluster measures its radius against this, and its
+// own default (512) would halve the radius on screen
+const TILE_SIZE_PX = 256;
 // From this zoom level on, every pin shows on its own
 const CLUSTER_MAX_ZOOM = 16;
 
@@ -102,6 +105,7 @@ export function TweetPinLayer({ pins, onPinClick }: TweetPinLayerProps) {
       const pinsById = new Map(pins.map((pin) => [pin.id, pin]));
       const index = new Supercluster<{ pinId: string }>({
         radius: CLUSTER_RADIUS_PX,
+        extent: TILE_SIZE_PX,
         maxZoom: CLUSTER_MAX_ZOOM,
       }).load(
         pins.map((pin) => ({
