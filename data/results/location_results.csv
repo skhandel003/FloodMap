@@ -1,0 +1,12 @@
+tweet,label,score,locations,time
+"#Calgary, I am so proud of you! Calgarians, you rock with your #solidarity! #hometownpride #love #canada #yyc #flooding #RT @wwwDORIca :)",LABEL_1,0.9995768666267396,"['Alberta', 'Calgary', None]",2013-06-22T15:10:00Z
+@ZevKlymochko I skated (and loved) millennium park when I lived in Calgary. Is there any pics of millennium park post flood?,LABEL_1,0.9998472929000854,"['Alberta', 'Calgary', 'millennium park', 'Alberta', 'Calgary', 'millennium park']",2013-06-23T02:45:00Z
+CTV is reporting that River Cafe on Prince's Island is expected to take months to recover from damage. #yycflood.,LABEL_1,0.9991203546524048,"['Alberta', 'Calgary', ""Prince's Island Park""]",
+High River re-entry plans shared today via @Globaltvnews #abflood http://t.co/xMMxylmooT,LABEL_1,0.9993481636047363,"['Alberta', 'High River', None]",2013-06-27T18:00:00Z
+So I hear the Starbucks on 4th in Mission has a venti water issue. #yycflood,LABEL_1,0.9712043404579163,"[None, 'Calgary', 'Mission']",2013-06-21T09:30:00Z
+@42megasxlr: #yycflood Saddledome water level about 9 rows up http://t.co/ZrYpNfk5PM,LABEL_1,0.9989127516746521,"['Alberta', 'Calgary', 'Saddledome']",2013-06-22T01:20:00Z
+Kennedy postpones oilsands trip due to Alberta floods: He was to tour an oilsands plant in the Fort McMurray a... http://t.co/HdVPSfyQxM,LABEL_1,0.9999163150787354,"['Alberta', None, None, 'Alberta', 'Fort McMurray', None]",
+Hoping & praying for those affected by the flooding in Alberta,LABEL_1,0.9999141693115234,"['Alberta', None, None]",2013-06-21T20:15:00Z
+"#News Floods displace nearly 200,000 in western Canada\http://t.co/2q8NrnECDm",LABEL_1,0.999918818473816,None,2013-06-22T12:00:00Z
+"Officials in #Calgary say evacuations will not end until water recedes; up to 30,000 still without power #abflood @weathernetwork",LABEL_1,0.9999159574508668,"['Alberta', '#Calgary', 'None']",2013-06-21T16:40:00Z
+@windspeakernews @ABHumanServices thanks you too. I hope the people of Siska all got out safely. #YYC #abflood #floods #yccflood,LABEL_1,0.9999189376831056,"['Alberta', None, 'Siksika Nation']",

@@ -14,8 +14,7 @@ const INITIAL_SPIN = 0.25;
 // Tilts the north pole away from the viewer so mid-latitudes fill the visible cap
 const POLE_TILT = -0.35;
 const AXIS_ROLL = 0.2;
-const ATMOSPHERE_SCALE = 1.12;
-const STAR_COUNT = 900;
+const ATMOSPHERE_SCALE = 1.06;
 
 const NORMAL_VERTEX_SHADER = /* glsl */ `
   varying vec3 vNormal;
@@ -31,7 +30,7 @@ const HALO_FRAGMENT_SHADER = /* glsl */ `
   varying vec3 vNormal;
   void main() {
     float f = clamp(-vNormal.z / edge, 0.0, 1.0);
-    gl_FragColor = vec4(0.35, 0.65, 1.0, 1.0) * pow(f, 3.0) * 0.85;
+    gl_FragColor = vec4(0.35, 0.65, 1.0, 1.0) * pow(f, 3.0) * 0.4;
   }
 `;
 
@@ -40,7 +39,7 @@ const HAZE_FRAGMENT_SHADER = /* glsl */ `
   varying vec3 vNormal;
   void main() {
     float rim = 1.0 - clamp(vNormal.z, 0.0, 1.0);
-    gl_FragColor = vec4(0.4, 0.7, 1.0, 1.0) * pow(rim, 4.0) * 0.9;
+    gl_FragColor = vec4(0.4, 0.7, 1.0, 1.0) * pow(rim, 4.0) * 0.6;
   }
 `;
 
@@ -51,7 +50,6 @@ const HAZE_FRAGMENT_SHADER = /* glsl */ `
  * - three.js sphere wrapped in NASA Blue Marble imagery with an atmosphere glow
  * - Orthographic camera so the globe rises from the bottom of the viewport
  * - Fades in once the texture has loaded
- * - Holds still for users who prefer reduced motion
  * - Falls back to a static photo when WebGL is unavailable
  */
 export function EarthGlobe() {
@@ -155,34 +153,6 @@ export function EarthGlobe() {
       earth.add(tilt);
       scene.add(earth);
 
-      // Star positions span a unit square that layout() stretches to the viewport
-      const starPositions = new Float32Array(STAR_COUNT * 3);
-      const starColors = new Float32Array(STAR_COUNT * 3);
-      for (let i = 0; i < STAR_COUNT; i++) {
-        starPositions[i * 3] = Math.random() - 0.5;
-        starPositions[i * 3 + 1] = Math.random() - 0.5;
-        const brightness = 0.3 + Math.random() * 0.7;
-        starColors.set([brightness, brightness, brightness], i * 3);
-      }
-      const starGeometry = new THREE.BufferGeometry();
-      starGeometry.setAttribute(
-        "position",
-        new THREE.BufferAttribute(starPositions, 3)
-      );
-      starGeometry.setAttribute("color", new THREE.BufferAttribute(starColors, 3));
-      const starMaterial = new THREE.PointsMaterial({
-        size: 1.5,
-        sizeAttenuation: false,
-        vertexColors: true,
-      });
-      const stars = new THREE.Points(starGeometry, starMaterial);
-      stars.position.z = -20000;
-      scene.add(stars);
-
-      const prefersReducedMotion = window.matchMedia(
-        "(prefers-reduced-motion: reduce)"
-      ).matches;
-
       const layout = () => {
         const width = container.clientWidth;
         const height = container.clientHeight;
@@ -198,9 +168,6 @@ export function EarthGlobe() {
         const radius = Math.max(width * 0.62, height * 0.55);
         earth.scale.setScalar(radius);
         earth.position.y = height / 2 - GLOBE_TOP * height - radius;
-        stars.scale.set(width, height, 1);
-
-        if (prefersReducedMotion) renderer.render(scene, camera);
       };
 
       const resizeObserver = new ResizeObserver(layout);
@@ -217,11 +184,8 @@ export function EarthGlobe() {
         renderer.render(scene, camera);
         animationFrame = requestAnimationFrame(tick);
       };
-      if (prefersReducedMotion) {
-        renderer.render(scene, camera);
-      } else {
-        animationFrame = requestAnimationFrame(tick);
-      }
+      // Always spins, even with OS "reduce motion" on - the slow turn is the page's centrepiece
+      animationFrame = requestAnimationFrame(tick);
 
       setIsReady(true);
 
@@ -229,11 +193,9 @@ export function EarthGlobe() {
         cancelAnimationFrame(animationFrame);
         resizeObserver.disconnect();
         sphereGeometry.dispose();
-        starGeometry.dispose();
         earthMaterial.dispose();
         hazeMaterial.dispose();
         haloMaterial.dispose();
-        starMaterial.dispose();
         texture.dispose();
         renderer.dispose();
         renderer.domElement.remove();

@@ -10,9 +10,13 @@ import { MapControls } from "./MapControls";
 import { MapDetailsPanel } from "./MapDetailsPanel";
 import { MapMeasurementPanel } from "./MapMeasurementPanel";
 import { MapContextMenu } from "./MapContextMenu";
+import { TweetPinLayer } from "./TweetPinLayer";
+import { PinTweetsPanel } from "./PinTweetsPanel";
 import { useMapContextMenu } from "@/hooks/useMapContextMenu";
 import { useMapMarkers } from "@/hooks/useMapMarkers";
+import { useTweetPins } from "@/hooks/useTweetPins";
 import { SATELLITE_TILE_PROVIDER } from "@/constants/tile-providers";
+import type { MapPin } from "@/types/tweet";
 
 // Memoized style object to prevent unnecessary re-renders
 const GEOJSON_STYLE = {
@@ -34,6 +38,10 @@ export function MapMain() {
   const [selectedCountry, setSelectedCountry] =
     useState<GeoJSON.Feature | null>(null);
   const [isMeasurementOpen, setIsMeasurementOpen] = useState(false);
+  const [selectedPin, setSelectedPin] = useState<MapPin | null>(null);
+
+  // Tweet pins from the database
+  const pins = useTweetPins();
 
   // Context menu hook
   const {
@@ -52,6 +60,8 @@ export function MapMain() {
         `/api/countries/${encodeURIComponent(countryId)}`
       );
       const feature = await response.json();
+      // Both panels open on the left, so only one shows at a time
+      setSelectedPin(null);
       setSelectedCountry(feature);
     } catch (error) {
       console.error("Error loading country GeoJSON:", error);
@@ -60,6 +70,15 @@ export function MapMain() {
 
   const handleClearSelection = useCallback(() => {
     setSelectedCountry(null);
+  }, []);
+
+  const handlePinClick = useCallback((pin: MapPin) => {
+    setSelectedCountry(null);
+    setSelectedPin(pin);
+  }, []);
+
+  const handleClosePin = useCallback(() => {
+    setSelectedPin(null);
   }, []);
 
   const handleMeasurementOpen = useCallback(() => {
@@ -92,6 +111,7 @@ export function MapMain() {
           maxZoom={SATELLITE_TILE_PROVIDER.maxZoom}
         />
         <LeafletGeoJSON data={selectedCountry} style={GEOJSON_STYLE} />
+        <TweetPinLayer pins={pins} onPinClick={handlePinClick} />
       </LeafletMap>
 
       {/* Search Bar */}
@@ -113,6 +133,9 @@ export function MapMain() {
         country={selectedCountry}
         onClose={handleClearSelection}
       />
+
+      {/* Tweets behind the clicked pin */}
+      <PinTweetsPanel pin={selectedPin} onClose={handleClosePin} />
 
       {/* Measurement Panel */}
       <MapMeasurementPanel

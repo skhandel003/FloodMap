@@ -15,6 +15,8 @@
  * - MapThemeSwitcher: Light/dark theme toggle
  * - MapDetailsPanel: Country information panel
  * - MapMeasurementPanel: Distance/area measurement tools
+ * - TweetPinLayer: Numbered pins for tweets from the database
+ * - PinTweetsPanel: Tweets behind a clicked pin
  * 
  * Utilities:
  * - MapProvider: Context provider for map instance
@@ -38,3 +40,5 @@ export { MapUser } from './MapUser';
 export { MapMeasurementPanel } from './MapMeasurementPanel';
 export { MapDetailsPanel } from './MapDetailsPanel';
 export { MapContextMenu } from './MapContextMenu';
+export { TweetPinLayer } from './TweetPinLayer';
+export { PinTweetsPanel } from './PinTweetsPanel';

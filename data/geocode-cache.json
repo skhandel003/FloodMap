@@ -1,0 +1,38 @@
+{
+  "calgary, alberta": {
+    "lat": 51.0456064,
+    "lng": -114.057541
+  },
+  "alberta": {
+    "lat": 55.001251,
+    "lng": -115.002136
+  },
+  "millennium park, calgary, alberta": {
+    "lat": 51.0462291,
+    "lng": -114.0916769
+  },
+  "prince's island park, calgary, alberta": {
+    "lat": 51.0551846,
+    "lng": -114.0706486
+  },
+  "high river, alberta": {
+    "lat": 50.5801916,
+    "lng": -113.8709332
+  },
+  "mission, calgary": {
+    "lat": 51.0317576,
+    "lng": -114.0667199
+  },
+  "saddledome, calgary, alberta": {
+    "lat": 51.0374124,
+    "lng": -114.0519642
+  },
+  "fort mcmurray, alberta": {
+    "lat": 56.7291997,
+    "lng": -111.3885221
+  },
+  "siksika nation, alberta": {
+    "lat": 51.0672574,
+    "lng": -114.0604824
+  }
+}

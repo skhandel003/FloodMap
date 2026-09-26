@@ -11,7 +11,10 @@ export const SATELLITE_TILE_PROVIDER: TileProvider = {
   id: 'satellite',
   name: 'Satellite',
   url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-  attribution: '&copy; <a href="https://www.esri.com/">Esri World Imagery </a>',
+  // Pin locations come from Nominatim, whose licence requires the OSM credit
+  attribution:
+    '&copy; <a href="https://www.esri.com/">Esri World Imagery </a> | ' +
+    'Places &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   maxZoom: 18,
   category: 'satellite',
 };
