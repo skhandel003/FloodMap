@@ -32,6 +32,10 @@ const LOCK_ID = "geotag";
 // A run renews its lock after every search, so it only runs out if the run dies
 const LOCK_MS = 2 * 60_000;
 const MAX_FAILURES_IN_A_ROW = 5;
+// Each round re-reads the collection and re-sorts what's left; capping its length
+// means tweets added mid-run (e.g. from a new CSV) are picked up within about a
+// minute, rather than after a long round finishes
+const ROUND_SIZE = 50;
 // After a run gives up on failing searches, wait this long before starting another
 const RETRY_AFTER_FAILURE_MS = 5 * 60_000;
 // How specific each level is - a location's pin only moves to a less specific
@@ -407,6 +411,7 @@ export async function geotagCollection(
           log(`Paused after ${searches} search(es) - the next run carries on`);
           return finish("paused");
         }
+        if (ranThisRound >= ROUND_SIZE) break;
         const progress = `  [${i + 1}/${queue.length}] ${describeSearch(search)}`;
 
         let place: Place | null;

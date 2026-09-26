@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useMemo } from "react";
 import { LeafletMap } from "./LeafletMap";
 import { LeafletTileLayer } from "./LeafletTileLayer";
 import { LeafletGeoJSON } from "./LeafletGeoJSON";
@@ -38,10 +38,20 @@ export function MapMain() {
   const [selectedCountry, setSelectedCountry] =
     useState<GeoJSON.Feature | null>(null);
   const [isMeasurementOpen, setIsMeasurementOpen] = useState(false);
-  const [selectedPin, setSelectedPin] = useState<MapPin | null>(null);
+  const [clickedPin, setClickedPin] = useState<MapPin | null>(null);
 
   // Tweet pins from the database
   const { pins, refresh: refreshPins } = useTweetPins();
+
+  // The open pin's tweet list follows each refresh (e.g. tweets geotagged since
+  // it was clicked). If the pin is gone - its tweets moved to more precise pins -
+  // the panel falls back to the pin as it was when clicked.
+  const selectedPin = useMemo(
+    () =>
+      clickedPin &&
+      (pins.find((pin) => pin.id === clickedPin.id) ?? clickedPin),
+    [pins, clickedPin]
+  );
 
   // Context menu hook
   const {
@@ -61,7 +71,7 @@ export function MapMain() {
       );
       const feature = await response.json();
       // Both panels open on the left, so only one shows at a time
-      setSelectedPin(null);
+      setClickedPin(null);
       setSelectedCountry(feature);
     } catch (error) {
       console.error("Error loading country GeoJSON:", error);
@@ -74,11 +84,11 @@ export function MapMain() {
 
   const handlePinClick = useCallback((pin: MapPin) => {
     setSelectedCountry(null);
-    setSelectedPin(pin);
+    setClickedPin(pin);
   }, []);
 
   const handleClosePin = useCallback(() => {
-    setSelectedPin(null);
+    setClickedPin(null);
   }, []);
 
   const handleMeasurementOpen = useCallback(() => {
